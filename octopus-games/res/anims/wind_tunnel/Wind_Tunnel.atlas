@@ -1,0 +1,19 @@
+Wind_Tunnel.png
+	size: 644, 644
+	filter: Linear, Linear
+wind tunnel FX/wind_1
+	bounds: 227, 322, 212, 159
+	offsets: 1, 1, 214, 161
+wind tunnel FX/wind_2
+	bounds: 483, 418, 224, 159
+	offsets: 1, 1, 226, 161
+	rotate: 90
+wind tunnel FX/wind_3
+	bounds: 2, 322, 223, 159
+	offsets: 1, 1, 225, 161
+wind tunnel FX/wind_4
+	bounds: 2, 483, 242, 159
+	offsets: 1, 1, 244, 161
+wind tunnel FX/wind_5
+	bounds: 246, 483, 235, 159
+	offsets: 1, 1, 237, 161

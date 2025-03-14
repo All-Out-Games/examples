@@ -1,0 +1,436 @@
+{
+"skeleton": { "hash": "4uiWNCvc34k", "spine": "4.0.64", "x": -301, "y": -676.66, "width": 602, "height": 923.66 },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root" },
+	{ "name": "bone2", "parent": "bone", "rotation": 42.42, "x": -159.57, "y": -145.83 },
+	{ "name": "bone3", "parent": "bone", "rotation": 42.42, "x": 161.13, "y": 147.26 },
+	{ "name": "bone4", "parent": "bone", "y": -593.95 },
+	{ "name": "bone5", "parent": "bone4", "y": 130 }
+],
+"slots": [
+	{ "name": "circle", "bone": "bone" },
+	{ "name": "hole", "bone": "root", "attachment": "hole" },
+	{ "name": "magnet_trigger_border3", "bone": "bone", "attachment": "magnet_trigger_border" },
+	{ "name": "platform", "bone": "bone4", "attachment": "platform" },
+	{ "name": "giant_magnet", "bone": "bone5", "attachment": "giant_magnet" },
+	{ "name": "down_half", "bone": "bone2", "attachment": "down_half" },
+	{ "name": "up_half", "bone": "bone3", "attachment": "up_half" },
+	{ "name": "circle_guide", "bone": "bone" },
+	{ "name": "magnet_trigger_border2", "bone": "bone", "attachment": "magnet_trigger_border" },
+	{ "name": "magnet_trigger_border", "bone": "bone", "attachment": "magnet_trigger_border" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"circle": {
+				"circle": {
+					"type": "clipping",
+					"end": "circle_guide",
+					"vertexCount": 14,
+					"vertices": [ -192.57, 155.95, -262.53, 79.78, -278.07, -33.7, -229.88, -127.75, -140.5, -183.72, -44.12, -217.5, 64.7, -212.06, 172.74, -175.52, 251.25, -106.35, 272.23, 22.68, 237.26, 124.5, 145.54, 188.24, 11.85, 219.33, -113.29, 201.45 ]
+				}
+			},
+			"down_half": {
+				"down_half": { "x": 158.03, "y": 1.72, "rotation": -42.42, "width": 510, "height": 414 }
+			},
+			"giant_magnet": {
+				"giant_magnet": { "y": 165.38, "width": 342, "height": 355 }
+			},
+			"hole": {
+				"hole": { "width": 491, "height": 383 }
+			},
+			"magnet_trigger_border": {
+				"magnet_trigger_border": { "width": 602, "height": 494 }
+			},
+			"magnet_trigger_border2": {
+				"magnet_trigger_border": {
+					"type": "mesh",
+					"uvs": [ 0, 0.23752, 0.13925, 0.54735, 0.48266, 0.6788, 0.86798, 0.56317, 1, 0.27587, 1, 1, 0, 1 ],
+					"triangles": [ 6, 0, 1, 3, 4, 5, 2, 3, 5, 6, 1, 2, 5, 6, 2 ],
+					"vertices": [ -301, 129.67, -217.17, -23.39, -10.44, -88.33, 221.53, -31.21, 301, 110.72, 301, -247, -301, -247 ],
+					"hull": 7
+				}
+			},
+			"magnet_trigger_border3": {
+				"magnet_trigger_border": {
+					"type": "mesh",
+					"uvs": [ 0, 0.29439, 0.13925, 0.60422, 0.48266, 0.6788, 0.8502, 0.62005, 1, 0.34087, 1, 2.0E-5, 0, 2.0E-5 ],
+					"triangles": [ 2, 0, 6, 1, 0, 2, 5, 2, 6, 4, 3, 5, 5, 3, 2 ],
+					"vertices": [ -301, 101.57, -217.17, -51.49, -10.44, -88.33, 210.82, -59.3, 301, 78.61, 301, 246.99, -301, 246.99 ],
+					"hull": 7
+				}
+			},
+			"platform": {
+				"platform": { "y": 85.79, "width": 299, "height": 337 }
+			},
+			"up_half": {
+				"up_half": { "x": -167.41, "y": -2.34, "rotation": -42.42, "width": 520, "height": 423 }
+			}
+		}
+	}
+],
+"animations": {
+	"trap_activate": {
+		"slots": {
+			"circle": {
+				"attachment": [
+					{ "name": "circle" }
+				]
+			}
+		},
+		"bones": {
+			"bone2": {
+				"translate": [
+					{
+						"curve": [ 0.016, 0, 0.034, 5.7, 0.016, 0, 0.034, 5.2 ]
+					},
+					{
+						"time": 0.05,
+						"x": 5.7,
+						"y": 5.2,
+						"curve": [ 0.074, 5.7, 0.093, 9.1, 0.074, 5.2, 0.093, 8.61 ]
+					},
+					{
+						"time": 0.1167,
+						"x": 5.7,
+						"y": 5.2,
+						"curve": [ 0.201, -6.4, 0.315, -108, 0.201, -6.89, 0.315, -94.14 ]
+					},
+					{ "time": 0.3667, "x": -160.93, "y": -147.08 }
+				]
+			},
+			"bone3": {
+				"translate": [
+					{
+						"curve": [ 0.016, 0, 0.034, -4.01, 0.016, 0, 0.034, -3.49 ]
+					},
+					{
+						"time": 0.05,
+						"x": -4.01,
+						"y": -3.49,
+						"curve": [ 0.074, -4.01, 0.093, -7.66, 0.074, -3.49, 0.093, -7.14 ]
+					},
+					{
+						"time": 0.1167,
+						"x": -4.01,
+						"y": -3.49,
+						"curve": [ 0.196, 8.09, 0.329, 136.01, 0.196, 8.61, 0.329, 121.05 ]
+					},
+					{ "time": 0.3667, "x": 173.82, "y": 158.86 }
+				]
+			},
+			"bone4": {
+				"translate": [
+					{ "time": 0.1833 },
+					{ "time": 0.55, "y": 473.82 },
+					{ "time": 0.5667, "y": 481.19 },
+					{ "time": 0.6, "y": 473.82, "curve": "stepped" },
+					{ "time": 0.6667, "y": 473.82 }
+				]
+			},
+			"bone5": {
+				"rotate": [
+					{ "time": 0.6667, "curve": "stepped" },
+					{ "time": 0.7167, "value": 0.3, "curve": "stepped" },
+					{ "time": 0.75, "value": -0.31, "curve": "stepped" },
+					{ "time": 0.8, "value": 0.2, "curve": "stepped" },
+					{ "time": 0.8333, "value": -0.4, "curve": "stepped" },
+					{ "time": 0.8833, "value": 0.25, "curve": "stepped" },
+					{ "time": 0.9167 }
+				],
+				"scale": [
+					{
+						"time": 0.5167,
+						"curve": [ 0.533, 1.034, 0.567, 1.13, 0.531, 0.929, 0.567, 0.831 ]
+					},
+					{
+						"time": 0.5833,
+						"x": 1.13,
+						"y": 0.831,
+						"curve": [ 0.606, 1.13, 0.628, 0.883, 0.606, 0.831, 0.628, 1.072 ]
+					},
+					{
+						"time": 0.65,
+						"x": 0.883,
+						"y": 1.072,
+						"curve": [ 0.678, 0.883, 0.716, 0.993, 0.678, 1.072, 0.717, 1 ]
+					},
+					{ "time": 0.75 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0.4,
+				"offsets": [
+					{ "slot": "giant_magnet", "offset": 5 }
+				]
+			}
+		]
+	},
+	"trap_activate_idle": {
+		"slots": {
+			"circle": {
+				"attachment": [
+					{ "name": "circle" }
+				]
+			}
+		},
+		"bones": {
+			"bone2": {
+				"translate": [
+					{ "x": -160.93, "y": -147.08 }
+				]
+			},
+			"bone3": {
+				"translate": [
+					{ "x": 173.82, "y": 158.86 }
+				]
+			},
+			"bone4": {
+				"translate": [
+					{ "y": 473.82 }
+				]
+			},
+			"bone5": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 0.05, "value": 0.1, "curve": "stepped" },
+					{ "time": 0.0833, "value": -0.3, "curve": "stepped" },
+					{ "time": 0.1333, "value": 0.3, "curve": "stepped" },
+					{ "time": 0.1667, "value": -0.31, "curve": "stepped" },
+					{ "time": 0.2167, "value": 0.2, "curve": "stepped" },
+					{ "time": 0.25, "value": -0.4, "curve": "stepped" },
+					{ "time": 0.3, "value": 0.25, "curve": "stepped" },
+					{ "time": 0.3333 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"offsets": [
+					{ "slot": "giant_magnet", "offset": 5 }
+				]
+			}
+		]
+	},
+	"trap_appear": {
+		"slots": {
+			"circle": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"down_half": {
+				"rgba": [
+					{
+						"color": "ffffff00",
+						"curve": [ 0.111, 1, 0.306, 1, 0.111, 1, 0.306, 1, 0.111, 1, 0.306, 1, 0.111, 0, 0.306, 1 ]
+					},
+					{ "time": 0.4167, "color": "ffffffff" }
+				]
+			},
+			"giant_magnet": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"hole": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"magnet_trigger_border": {
+				"rgba": [
+					{
+						"color": "ffffff00",
+						"curve": [ 0.056, 1, 0.194, 1, 0.056, 1, 0.194, 1, 0.056, 1, 0.194, 1, 0.056, 0, 0.194, 1 ]
+					},
+					{ "time": 0.25, "color": "ffffffff" }
+				]
+			},
+			"magnet_trigger_border2": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"magnet_trigger_border3": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"platform": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"up_half": {
+				"rgba": [
+					{
+						"color": "ffffff00",
+						"curve": [ 0.111, 1, 0.306, 1, 0.111, 1, 0.306, 1, 0.111, 1, 0.306, 1, 0.111, 0, 0.306, 1 ]
+					},
+					{ "time": 0.4167, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"bone": {
+				"translate": [
+					{}
+				]
+			}
+		}
+	},
+	"trap_disappear": {
+		"slots": {
+			"circle": {
+				"rgba": [
+					{
+						"color": "ffffffff",
+						"curve": [ 0.111, 1, 0.306, 1, 0.111, 1, 0.306, 1, 0.111, 1, 0.306, 1, 0.111, 1, 0.306, 0 ]
+					},
+					{ "time": 0.4167, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "circle" }
+				]
+			},
+			"down_half": {
+				"rgba": [
+					{
+						"color": "ffffffff",
+						"curve": [ 0.111, 1, 0.306, 1, 0.111, 1, 0.306, 1, 0.111, 1, 0.306, 1, 0.111, 1, 0.306, 0 ]
+					},
+					{ "time": 0.4167, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"giant_magnet": {
+				"rgba": [
+					{
+						"time": 0.0833,
+						"color": "ffffffff",
+						"curve": [ 0.194, 1, 0.306, 1, 0.194, 1, 0.306, 1, 0.194, 1, 0.306, 1, 0.194, 1, 0.306, 0 ]
+					},
+					{ "time": 0.4167, "color": "ffffff00" }
+				]
+			},
+			"hole": {
+				"rgba": [
+					{
+						"color": "ffffffff",
+						"curve": [ 0.111, 1, 0.306, 1, 0.111, 1, 0.306, 1, 0.111, 1, 0.306, 1, 0.111, 1, 0.306, 0 ]
+					},
+					{ "time": 0.4167, "color": "ffffff00" }
+				]
+			},
+			"magnet_trigger_border": {
+				"rgba": [
+					{
+						"color": "ffffffff",
+						"curve": [ 0.111, 1, 0.306, 1, 0.111, 1, 0.306, 1, 0.111, 1, 0.306, 1, 0.111, 1, 0.306, 0 ]
+					},
+					{ "time": 0.4167, "color": "ffffff00" }
+				]
+			},
+			"magnet_trigger_border2": {
+				"rgba": [
+					{
+						"color": "ffffffff",
+						"curve": [ 0.111, 1, 0.306, 1, 0.111, 1, 0.306, 1, 0.111, 1, 0.306, 1, 0.111, 1, 0.306, 0 ]
+					},
+					{ "time": 0.4167, "color": "ffffff00" }
+				]
+			},
+			"magnet_trigger_border3": {
+				"rgba": [
+					{
+						"time": 0.0833,
+						"color": "ffffffff",
+						"curve": [ 0.133, 1, 0.183, 1, 0.133, 1, 0.183, 1, 0.133, 1, 0.183, 1, 0.133, 1, 0.183, 0 ]
+					},
+					{ "time": 0.2333, "color": "ffffff00" }
+				]
+			},
+			"platform": {
+				"rgba": [
+					{
+						"color": "ffffffff",
+						"curve": [ 0.111, 1, 0.306, 1, 0.111, 1, 0.306, 1, 0.111, 1, 0.306, 1, 0.111, 1, 0.306, 0 ]
+					},
+					{ "time": 0.4167, "color": "ffffff00" }
+				]
+			},
+			"up_half": {
+				"rgba": [
+					{
+						"color": "ffffffff",
+						"curve": [ 0.111, 1, 0.306, 1, 0.111, 1, 0.306, 1, 0.111, 1, 0.306, 1, 0.111, 1, 0.306, 0 ]
+					},
+					{ "time": 0.4167, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null }
+				]
+			}
+		},
+		"bones": {
+			"bone2": {
+				"translate": [
+					{ "x": -160.93, "y": -147.08 }
+				]
+			},
+			"bone3": {
+				"translate": [
+					{ "x": 173.82, "y": 158.86 }
+				]
+			},
+			"bone4": {
+				"translate": [
+					{ "y": 473.82 }
+				]
+			},
+			"bone5": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 0.05, "value": 0.1, "curve": "stepped" },
+					{
+						"time": 0.0833,
+						"value": -0.3,
+						"curve": [ 0.1, -0.3, 0.117, 0 ]
+					},
+					{ "time": 0.1333 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"offsets": [
+					{ "slot": "giant_magnet", "offset": 5 }
+				]
+			}
+		]
+	},
+	"trap_idle": {
+		"slots": {
+			"circle": {
+				"attachment": [
+					{ "name": "circle" }
+				]
+			}
+		},
+		"bones": {
+			"bone": {
+				"translate": [
+					{}
+				]
+			}
+		}
+	}
+}
+}

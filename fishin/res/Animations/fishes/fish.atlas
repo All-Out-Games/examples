@@ -1,0 +1,153 @@
+fish.png
+	size: 4080, 784
+	filter: Linear, Linear
+	scale: 0.5
+images/old/Lobster
+	bounds: 6, 249, 146, 98
+images/old/RubberShark
+	bounds: 2824, 651, 250, 125
+images/old/UglyFish2
+	bounds: 3602, 183, 95, 104
+images/old/angy_fish
+	bounds: 238, 673, 139, 103
+images/old/boot
+	bounds: 2413, 331, 56, 62
+images/old/can
+	bounds: 3960, 246, 111, 109
+	offsets: 0, 0, 111, 110
+	rotate: 90
+images/old/crab_full
+	bounds: 2517, 602, 301, 174
+images/old/fish
+	bounds: 2355, 741, 53, 35
+images/old/fish1
+	bounds: 3425, 707, 128, 69
+images/old/fish2
+	bounds: 847, 744, 43, 32
+	offsets: 3, 3, 49, 38
+images/old/fish4
+	bounds: 1478, 723, 71, 53
+images/old/fish_clown
+	bounds: 899, 639, 198, 137
+images/old/fish_icon
+	bounds: 2553, 559, 61, 37
+	offsets: 4, 5, 69, 46
+images/old/fish_icon2
+	bounds: 1924, 171, 77, 70
+	offsets: 3, 4, 83, 77
+images/old/fish_orange
+	bounds: 2983, 601, 74, 44
+images/old/fish_pink
+	bounds: 913, 478, 87, 155
+	offsets: 1, 1, 89, 157
+images/old/fish_purple
+	bounds: 3876, 708, 33, 68
+images/old/fish_skeleton
+	bounds: 2901, 600, 76, 45
+images/old/jellyfish
+	bounds: 2475, 320, 56, 52
+images/old/rainbow_fish
+	bounds: 3559, 717, 106, 59
+	offsets: 0, 1, 107, 60
+images/old/sonic_fish
+	bounds: 3785, 253, 169, 106
+images/old/sword_fish
+	bounds: 459, 687, 172, 89
+images/old/trash
+	bounds: 238, 576, 87, 91
+images/regular/big_chungus_bass/body
+	bounds: 2257, 330, 150, 112
+images/regular/big_chungus_bass/default_expression
+	bounds: 3195, 472, 110, 125
+images/regular/blobfish/body
+	bounds: 3594, 433, 98, 59
+images/regular/blobfish/default_expression
+	bounds: 2824, 589, 71, 56
+images/regular/blockfish/body
+	bounds: 2743, 220, 119, 90
+images/regular/blockfish/default_expression
+	bounds: 3235, 606, 58, 44
+images/regular/bloop/body
+	bounds: 6, 157, 902, 619
+images/regular/bloop/default_expression
+	bounds: 1814, 247, 437, 529
+images/regular/blue_fish/body
+	bounds: 875, 160, 107, 91
+images/regular/blue_fish/default_expression
+	bounds: 3206, 242, 56, 57
+images/regular/boomer_bass/body
+	bounds: 3084, 234, 116, 137
+images/regular/boomer_bass/default_expression
+	bounds: 2257, 462, 69, 59
+images/regular/chad_cod/body
+	bounds: 1560, 624, 193, 152
+images/regular/chad_cod/default_expression
+	bounds: 2417, 691, 84, 85
+images/regular/chill_fish/body
+	bounds: 121, 159, 111, 84
+images/regular/chill_fish/default_expression
+	bounds: 383, 711, 70, 65
+images/regular/el_gran_maja/body
+	bounds: 2257, 315, 932, 461
+images/regular/el_gran_maja/default_expression
+	bounds: 2257, 6, 480, 307
+images/regular/glitched/body
+	bounds: 913, 389, 98, 83
+images/regular/glitched/body_1
+	bounds: 6, 154, 109, 89
+images/regular/glitched/body_2
+	bounds: 1814, 152, 104, 89
+images/regular/glitched/body_3
+	bounds: 3846, 158, 104, 89
+images/regular/glitched/default_expression
+	bounds: 3671, 732, 42, 44
+images/regular/glitched/glitch_particle
+	bounds: 1235, 766, 20, 10
+images/regular/kraken/body
+	bounds: 913, 49, 895, 727
+images/regular/kraken/default_expression
+	bounds: 1311, 720, 72, 56
+images/regular/megalodon/body
+	bounds: 3194, 85, 691, 421
+	rotate: 90
+images/regular/megalodon/default_expression
+	bounds: 6, 544, 226, 232
+images/regular/noobfish/body
+	bounds: 2868, 239, 93, 71
+images/regular/noobfish/default_expression
+	bounds: 1759, 722, 54, 43
+	rotate: 90
+images/regular/poggerfish/body
+	bounds: 1690, 400, 118, 100
+images/regular/poggerfish/default_expression
+	bounds: 1724, 525, 71, 93
+images/regular/river_monster/body
+	bounds: 3587, 498, 278, 283
+	rotate: 90
+images/regular/river_monster/default_expression
+	bounds: 3620, 293, 159, 123
+images/regular/rizzfish/body
+	bounds: 3930, 363, 141, 225
+images/regular/rizzfish/default_expression
+	bounds: 3080, 603, 149, 173
+images/regular/sad_sardine/body
+	bounds: 6, 497, 77, 41
+images/regular/sad_sardine/default_expression
+	bounds: 1389, 747, 41, 29
+images/regular/sigma_shark/body
+	bounds: 1507, 472, 211, 146
+images/regular/sigma_shark/default_expression
+	bounds: 2969, 214, 109, 101
+images/regular/skibidi_swordfish/body
+	bounds: 3866, 548, 228, 186
+	rotate: 90
+images/regular/skibidi_swordfish/default_expression
+	bounds: 3703, 175, 137, 72
+images/regular/sus_snapper/body
+	bounds: 637, 693, 133, 83
+images/regular/sus_snapper/default_expression
+	bounds: 1006, 594, 58, 39
+images/regular/vibing_bass/body
+	bounds: 3733, 422, 164, 121
+images/regular/vibing_bass/default_expression
+	bounds: 1564, 381, 107, 85

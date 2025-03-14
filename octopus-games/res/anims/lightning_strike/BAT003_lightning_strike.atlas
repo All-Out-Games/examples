@@ -1,0 +1,51 @@
+BAT003_lightning_strike.png
+	size: 3284, 1144
+	filter: Linear, Linear
+F3 loop/loop F1/center f1
+	bounds: 2843, 62, 502, 172
+	offsets: 5, 3, 512, 178
+	rotate: 90
+F3 loop/loop F1/glow f1
+	bounds: 1155, 22, 723, 375
+	offsets: 60, 1, 838, 419
+	rotate: 90
+F3 loop/loop F1/lightning loop1 front
+	bounds: 3, 3, 450, 1138
+	offsets: 4, 4, 459, 1145
+F3 loop/loop F1/outer ring f1
+	bounds: 2166, 39, 729, 348
+	offsets: 4, 3, 737, 354
+	rotate: 90
+F3 loop/loop F2/center f2
+	bounds: 3112, 595, 284, 167
+	offsets: 5, 4, 293, 174
+	rotate: 90
+F3 loop/loop F2/lightning loop1 front
+	bounds: 816, 22, 336, 1119
+	offsets: 4, 3, 345, 1126
+F3 loop/loop F2/outer ring f2
+	bounds: 1784, 771, 730, 356
+	offsets: 4, 5, 738, 364
+F3 loop/loop F3/center f3
+	bounds: 3112, 210, 382, 146
+	offsets: 4, 4, 391, 153
+	rotate: 90
+F3 loop/loop F3/lightning loop1 front
+	bounds: 456, 30, 357, 1111
+	offsets: 5, 4, 367, 1118
+F3 loop/loop F3/outer ring f3
+	bounds: 1784, 75, 693, 379
+	offsets: 4, 3, 701, 387
+	rotate: 90
+lightning F1
+	bounds: 2517, 85, 170, 1056
+	offsets: 3, 5, 177, 1066
+lightning F2
+	bounds: 1533, 75, 248, 1066
+	offsets: 5, 5, 256, 1075
+lightning F4
+	bounds: 2690, 62, 150, 1079
+	offsets: 4, 3, 158, 1086
+lightning F5
+	bounds: 3018, 210, 91, 931
+	offsets: 3, 6, 97, 944

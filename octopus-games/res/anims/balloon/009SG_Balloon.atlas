@@ -1,0 +1,116 @@
+009SG_Balloon.png
+	size: 2036, 356
+	filter: Linear, Linear
+balloon_glint
+	bounds: 1267, 96, 123, 122
+	offsets: 3, 4, 129, 130
+balloon_glow
+	bounds: 3, 12, 340, 338
+	offsets: 8, 8, 357, 354
+balloon_glow_shaft
+	bounds: 1267, 11, 70, 175
+	offsets: 6, 0, 80, 201
+	rotate: 90
+blue_balloon
+	bounds: 1104, 82, 160, 268
+	offsets: 1, 1, 162, 269
+blue_pop1
+	bounds: 1924, 94, 99, 70
+	offsets: 1, 1, 101, 72
+	rotate: 90
+blue_pop2
+	bounds: 594, 3, 46, 121
+	offsets: 1, 1, 48, 122
+	rotate: 90
+blue_pop3
+	bounds: 1531, 221, 134, 110
+	offsets: 1, 1, 136, 112
+blue_pop4
+	bounds: 1758, 26, 65, 119
+	offsets: 1, 1, 67, 121
+	rotate: 90
+gold_balloon
+	bounds: 941, 82, 160, 268
+	offsets: 1, 1, 162, 269
+gold_balloon - Copy
+	bounds: 346, 52, 190, 298
+	offsets: 30, 26, 250, 350
+gold_pop1
+	bounds: 1845, 276, 99, 70
+	offsets: 1, 1, 101, 72
+gold_pop1 - Copy
+	bounds: 1880, 21, 99, 70
+	offsets: 1, 1, 101, 72
+gold_pop2
+	bounds: 346, 3, 46, 121
+	offsets: 1, 1, 48, 122
+	rotate: 90
+gold_pop2 - Copy
+	bounds: 470, 3, 46, 121
+	offsets: 1, 1, 48, 122
+	rotate: 90
+gold_pop3
+	bounds: 1394, 221, 134, 110
+	offsets: 1, 1, 136, 112
+gold_pop3 - Copy
+	bounds: 1506, 84, 134, 110
+	offsets: 1, 1, 136, 112
+	rotate: 90
+gold_pop4
+	bounds: 1063, 14, 65, 119
+	offsets: 1, 1, 67, 121
+	rotate: 90
+gold_pop4 - Copy
+	bounds: 1445, 16, 65, 119
+	offsets: 1, 1, 67, 121
+	rotate: 90
+lightning_ball_1
+	bounds: 539, 52, 238, 236
+	offsets: 7, 8, 252, 252
+	rotate: 90
+particle_A
+	bounds: 1619, 94, 124, 106
+	offsets: 7, 7, 137, 120
+	rotate: 90
+particle_B
+	bounds: 1825, 94, 96, 77
+	offsets: 7, 12, 110, 97
+particle_C
+	bounds: 1728, 94, 94, 95
+	offsets: 7, 7, 108, 112
+particle_E
+	bounds: 1763, 192, 101, 79
+	offsets: 7, 15, 120, 100
+	rotate: 90
+particle_F
+	bounds: 1267, 221, 129, 124
+	offsets: 7, 7, 143, 138
+	rotate: 90
+particle_G
+	bounds: 1668, 221, 103, 92
+	offsets: 8, 8, 119, 107
+	rotate: 90
+particle_H
+	bounds: 1619, 10, 136, 81
+	offsets: 8, 6, 152, 93
+red_balloon
+	bounds: 778, 22, 160, 268
+	offsets: 1, 1, 162, 269
+red_pop1
+	bounds: 1845, 174, 99, 70
+	offsets: 1, 1, 101, 72
+	rotate: 90
+red_pop2
+	bounds: 1947, 196, 46, 121
+	offsets: 1, 1, 48, 122
+red_pop3
+	bounds: 1393, 84, 134, 110
+	offsets: 1, 1, 136, 112
+	rotate: 90
+red_pop4
+	bounds: 941, 14, 65, 119
+	offsets: 1, 1, 67, 121
+	rotate: 90
+trap_indicator
+	bounds: 1996, 196, 37, 107
+	offsets: 1, 1, 39, 108

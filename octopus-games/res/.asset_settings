@@ -1,0 +1,4 @@
+[
+    { id: "environments/hub_map/images/template.png", texture: { resample_multiplier: 0.4 } }
+    { id: "environments/balloon_pop/trees_walls/trees_wall_mid_tile.png", texture: { wrap_repeat: true } }
+]

@@ -1,0 +1,26 @@
+energy_turbine.png
+	size: 612, 612
+	filter: Linear, Linear
+Energy Turbine/Axel Middle
+	bounds: 556, 423, 51, 50
+	rotate: 90
+Energy Turbine/Axels
+	bounds: 6, 180, 437, 426
+Energy Turbine/Base
+	bounds: 449, 480, 129, 126
+Energy Turbine/Pole
+	bounds: 6, 97, 77, 389
+	rotate: 90
+crew_81/Energy Turbine/TurbineHand1
+	bounds: 449, 253, 77, 76
+crew_81/Energy Turbine/TurbineHand2
+	bounds: 532, 260, 69, 74
+	rotate: 90
+crewmate/hands/hand_R_wave
+	bounds: 449, 335, 83, 87
+	offsets: 1, 1, 85, 89
+	rotate: 90
+weapons/crewmate_walkingstick
+	bounds: 449, 424, 50, 101
+	offsets: 1, 1, 52, 102
+	rotate: 90

@@ -1,0 +1,65 @@
+BAT003_crate.png
+	size: 944, 1732
+	filter: Linear, Linear
+crate_back
+	bounds: 784, 275, 186, 127
+	offsets: 1, 1, 188, 129
+	rotate: 90
+crate_front
+	bounds: 597, 163, 175, 129
+	offsets: 1, 1, 177, 131
+crate_pieces/crate_piece_A
+	bounds: 3, 80, 141, 122
+	offsets: 1, 1, 143, 124
+crate_pieces/crate_piece_B
+	bounds: 3, 3, 74, 79
+	offsets: 1, 1, 76, 80
+	rotate: 90
+crate_pieces/crate_piece_C
+	bounds: 396, 37, 103, 81
+	offsets: 1, 1, 105, 83
+	rotate: 90
+crate_pieces/crate_piece_D
+	bounds: 147, 80, 135, 122
+	offsets: 1, 1, 137, 124
+crate_pieces/crate_piece_E
+	bounds: 619, 54, 111, 106
+	offsets: 1, 1, 113, 108
+crate_pieces/crate_piece_F
+	bounds: 498, 47, 113, 118
+	offsets: 1, 1, 115, 119
+	rotate: 90
+crate_pieces/nail_A
+	bounds: 166, 32, 34, 45
+	offsets: 1, 1, 36, 47
+crate_pieces/nail_B
+	bounds: 203, 37, 29, 40
+	offsets: 1, 1, 31, 42
+crate_template
+	bounds: 3, 464, 938, 1265
+	offsets: 1, 1, 940, 1267
+glow
+	bounds: 3, 205, 347, 256
+	offsets: 19, 19, 385, 294
+light_shaft
+	bounds: 733, 78, 59, 153
+	offsets: 2, 5, 63, 158
+	rotate: 90
+shadow
+	bounds: 353, 280, 241, 181
+	offsets: 11, 12, 263, 205
+smoke/smoke_A
+	bounds: 775, 140, 140, 132
+	offsets: 8, 2, 158, 142
+smoke/smoke_B
+	bounds: 285, 40, 108, 100
+	offsets: 9, 26, 125, 134
+smoke/smoke_C
+	bounds: 353, 143, 142, 134
+	offsets: 10, 12, 161, 153
+smoke/smoke_D
+	bounds: 85, 3, 78, 74
+	offsets: 8, 8, 94, 86
+smoke/smoke_E
+	bounds: 597, 295, 184, 166
+	offsets: 9, 8, 202, 182

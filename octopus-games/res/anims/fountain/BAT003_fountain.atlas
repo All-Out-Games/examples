@@ -1,0 +1,32 @@
+BAT003_fountain.png
+	size: 1084, 1576
+	filter: Linear, Linear
+Fountain_Base
+	bounds: 3, 44, 1077, 1527
+Fountain_flow1
+	bounds: 133, 25, 17, 181
+	offsets: 1, 1, 19, 184
+	rotate: 90
+Fountain_flow2
+	bounds: 418, 28, 14, 118
+	offsets: 1, 2, 17, 121
+	rotate: 90
+Fountain_flow3
+	bounds: 418, 14, 11, 72
+	offsets: 2, 2, 15, 76
+	rotate: 90
+Fountain_flow4
+	bounds: 133, 6, 16, 160
+	offsets: 1, 3, 18, 164
+	rotate: 90
+Fountain_flow5
+	bounds: 317, 13, 29, 98
+	offsets: 2, 2, 32, 101
+	rotate: 90
+Fountain_flow6
+	bounds: 3, 3, 127, 39
+	offsets: 3, 1, 132, 43
+Fountain_flow7
+	bounds: 493, 7, 18, 40
+	offsets: 1, 3, 20, 44
+	rotate: 90

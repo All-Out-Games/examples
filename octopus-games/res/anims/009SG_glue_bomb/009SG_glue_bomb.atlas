@@ -1,0 +1,32 @@
+009SG_glue_bomb.png
+	size: 784, 424
+	filter: Linear, Linear
+glue_bomb
+	bounds: 543, 11, 149, 140
+	offsets: 1, 1, 151, 142
+	rotate: 90
+glue_bomb_A
+	bounds: 689, 162, 88, 90
+	offsets: 1, 1, 90, 92
+glue_bomb_B
+	bounds: 663, 258, 83, 107
+	offsets: 1, 1, 85, 108
+glue_bomb_C
+	bounds: 466, 9, 71, 57
+	offsets: 1, 1, 73, 59
+glue_particle_A
+	bounds: 517, 259, 158, 140
+	offsets: 1, 1, 160, 142
+	rotate: 90
+glue_particle_B
+	bounds: 689, 67, 66, 89
+	offsets: 1, 1, 68, 90
+glue_particle_C
+	bounds: 543, 166, 86, 136
+	offsets: 1, 1, 88, 137
+	rotate: 90
+glue_particle_D
+	bounds: 6, 352, 64, 65
+	offsets: 1, 1, 66, 67
+glue_splat
+	bounds: 6, 6, 531, 411

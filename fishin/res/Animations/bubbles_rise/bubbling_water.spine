@@ -1,0 +1,135 @@
+{
+"skeleton": { "hash": "1AE77GLsiOQ", "spine": "4.0.64" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "FX", "parent": "root", "x": 0.9, "y": -120.93 },
+	{ "name": "water", "parent": "FX", "x": 249.35, "y": 41.71 },
+	{ "name": "bubble", "parent": "water", "x": -118.23, "y": 14.29 },
+	{ "name": "bubble2", "parent": "water", "x": -118.23, "y": 14.29 },
+	{ "name": "bubble3", "parent": "water", "x": -118.23, "y": 14.29 }
+],
+"slots": [
+	{ "name": "MOD/water/bubble_1", "bone": "bubble" },
+	{ "name": "MOD/water/bubble_2", "bone": "bubble2" },
+	{ "name": "MOD/water/bubble_3", "bone": "bubble3" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"MOD/water/bubble_1": {
+				"MOD/water/bubble_1": { "x": 0.55, "y": 24.39, "width": 74, "height": 55 },
+				"MOD/water/bubble_2": { "x": 0.55, "y": 24.39, "width": 74, "height": 55 },
+				"MOD/water/bubble_3": { "x": 0.55, "y": 24.39, "width": 74, "height": 55 }
+			},
+			"MOD/water/bubble_2": {
+				"MOD/water/bubble_1": { "x": 0.55, "y": 24.39, "width": 74, "height": 55 },
+				"MOD/water/bubble_2": { "x": 0.55, "y": 24.39, "width": 74, "height": 55 },
+				"MOD/water/bubble_3": { "x": 0.55, "y": 24.39, "width": 74, "height": 55 }
+			},
+			"MOD/water/bubble_3": {
+				"MOD/water/bubble_1": { "x": 0.55, "y": 24.39, "width": 74, "height": 55 },
+				"MOD/water/bubble_2": { "x": 0.55, "y": 24.39, "width": 74, "height": 55 },
+				"MOD/water/bubble_3": { "x": 0.55, "y": 24.39, "width": 74, "height": 55 }
+			}
+		}
+	}
+],
+"animations": {
+	"swim_under_water_idle": {
+		"slots": {
+			"MOD/water/bubble_1": {
+				"attachment": [
+					{ "time": 0.0833, "name": "MOD/water/bubble_1" },
+					{ "time": 0.25, "name": "MOD/water/bubble_2" },
+					{ "time": 0.3333, "name": "MOD/water/bubble_3" },
+					{ "time": 0.4167, "name": null }
+				]
+			},
+			"MOD/water/bubble_2": {
+				"attachment": [
+					{ "time": 0.4167, "name": "MOD/water/bubble_1" },
+					{ "time": 0.5833, "name": "MOD/water/bubble_2" },
+					{ "time": 0.6667, "name": "MOD/water/bubble_3" },
+					{ "time": 0.75, "name": null }
+				]
+			},
+			"MOD/water/bubble_3": {
+				"attachment": [
+					{ "name": "MOD/water/bubble_3" },
+					{ "time": 0.0833, "name": null },
+					{ "time": 0.5, "name": "MOD/water/bubble_1" },
+					{ "time": 0.6667, "name": "MOD/water/bubble_2" },
+					{ "time": 0.75, "name": "MOD/water/bubble_3" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{},
+					{ "time": 0.0833, "value": 0.59 }
+				],
+				"translate": [
+					{}
+				],
+				"scale": [
+					{}
+				],
+				"shear": [
+					{}
+				]
+			},
+			"FX": {
+				"rotate": [
+					{}
+				],
+				"translate": [
+					{ "x": -0.9, "y": 120.93 }
+				],
+				"scale": [
+					{}
+				],
+				"shear": [
+					{}
+				]
+			},
+			"water": {
+				"translate": [
+					{ "x": -249.35, "y": -41.71 }
+				]
+			},
+			"bubble": {
+				"translate": [
+					{ "x": 65.08, "y": 34.33 }
+				],
+				"scale": [
+					{ "time": 0.0833, "x": 0.8, "y": 0.8 },
+					{ "time": 0.2917 }
+				]
+			},
+			"bubble2": {
+				"translate": [
+					{ "x": 155.19, "y": 17.16 }
+				],
+				"scale": [
+					{ "time": 0.4167, "x": 0.852, "y": 0.852 },
+					{ "time": 0.625 }
+				]
+			},
+			"bubble3": {
+				"translate": [
+					{ "x": 93.68, "y": 9.3 }
+				],
+				"scale": [
+					{ "time": 0.5, "x": 0.725, "y": 0.725 },
+					{ "time": 0.7083 }
+				]
+			}
+		},
+		"drawOrder": [
+			{}
+		]
+	}
+}
+}

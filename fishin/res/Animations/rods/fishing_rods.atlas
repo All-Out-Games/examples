@@ -1,0 +1,113 @@
+fishing_rods.png
+	size: 1472, 200
+	filter: Linear, Linear
+	scale: 0.5
+FISHERMON/rods/aurora_rod/aurora_back
+	bounds: 949, 146, 33, 45
+FISHERMON/rods/aurora_rod/aurora_front
+	bounds: 641, 81, 39, 110
+FISHERMON/rods/aurora_rod/aurora_rod
+	bounds: 567, 27, 30, 164
+FISHERMON/rods/aurora_rod/shimmer_particle
+	bounds: 1432, 181, 10, 10
+	offsets: 1, 1, 12, 12
+FISHERMON/rods/balloon_rod
+	bounds: 71, 6, 55, 185
+FISHERMON/rods/banana_rod
+	bounds: 6, 13, 59, 178
+FISHERMON/rods/crystal_rod
+	bounds: 363, 26, 38, 165
+FISHERMON/rods/galaxy_rod/constellation_line
+	bounds: 1407, 159, 32, 4
+	rotate: 90
+FISHERMON/rods/galaxy_rod/galaxy_circle
+	bounds: 811, 142, 49, 47
+	rotate: 90
+FISHERMON/rods/galaxy_rod/galaxy_rod
+	bounds: 603, 41, 32, 150
+FISHERMON/rods/galaxy_rod/star_A
+	bounds: 1349, 169, 19, 22
+	offsets: 2, 1, 23, 24
+FISHERMON/rods/galaxy_rod/star_B
+	bounds: 1417, 177, 9, 14
+FISHERMON/rods/hologram_rod/fish_projection_A
+	bounds: 1031, 150, 36, 41
+FISHERMON/rods/hologram_rod/fish_projection_B
+	bounds: 905, 148, 38, 43
+FISHERMON/rods/hologram_rod/flare_particle
+	bounds: 1448, 171, 20, 4
+	offsets: 2, 0, 24, 4
+	rotate: 90
+FISHERMON/rods/hologram_rod/hologram_rod
+	bounds: 864, 135, 35, 56
+FISHERMON/rods/hologram_rod/light_shaft
+	bounds: 1393, 175, 8, 16
+	offsets: 1, 0, 9, 18
+FISHERMON/rods/hologram_rod/pixel_particle
+	bounds: 1458, 184, 7, 7
+FISHERMON/rods/hologram_rod/projection
+	bounds: 456, 80, 56, 111
+FISHERMON/rods/lightsaber/lightsaber_rod
+	bounds: 771, 118, 34, 73
+FISHERMON/rods/lightsaber/line
+	bounds: 746, 39, 19, 152
+FISHERMON/rods/plasma_rod/globe_plasma_1
+	bounds: 1111, 155, 36, 29
+	offsets: 1, 1, 38, 31
+	rotate: 90
+FISHERMON/rods/plasma_rod/globe_plasma_2
+	bounds: 1073, 157, 34, 32
+	offsets: 1, 1, 36, 34
+	rotate: 90
+FISHERMON/rods/plasma_rod/globe_plasma_3
+	bounds: 1146, 159, 31, 32
+	offsets: 0, 0, 32, 33
+FISHERMON/rods/plasma_rod/plasma_A
+	bounds: 1268, 157, 34, 22
+	offsets: 1, 1, 36, 24
+	rotate: 90
+FISHERMON/rods/plasma_rod/plasma_B
+	bounds: 1210, 161, 30, 27
+	offsets: 1, 1, 32, 29
+	rotate: 90
+FISHERMON/rods/plasma_rod/plasma_C
+	bounds: 1325, 165, 26, 18
+	offsets: 1, 0, 27, 19
+	rotate: 90
+FISHERMON/rods/plasma_rod/plasma_D
+	bounds: 1243, 151, 40, 19
+	offsets: 1, 0, 42, 20
+	rotate: 90
+FISHERMON/rods/plasma_rod/plasma_E
+	bounds: 1183, 151, 40, 21
+	offsets: 1, 1, 42, 23
+	rotate: 90
+FISHERMON/rods/plasma_rod/plasma_rod
+	bounds: 518, 25, 43, 166
+FISHERMON/rods/plasma_rod/plasma_rod_back
+	bounds: 988, 151, 40, 37
+	rotate: 90
+FISHERMON/rods/rainbow_rod/glow
+	bounds: 686, 136, 54, 55
+	offsets: 4, 3, 61, 61
+FISHERMON/rods/rainbow_rod/light_shaft
+	bounds: 1374, 160, 13, 31
+	offsets: 1, 1, 15, 34
+FISHERMON/rods/rainbow_rod/rainbow_rod
+	bounds: 407, 20, 43, 171
+FISHERMON/rods/rainbow_rod/rainbow_texture_1
+	bounds: 318, 24, 39, 167
+	offsets: 17, 25, 73, 217
+FISHERMON/rods/rainbow_rod/rainbow_texture_2
+	bounds: 273, 24, 39, 167
+	offsets: 17, 25, 73, 217
+FISHERMON/rods/rainbow_rod/rainbow_texture_3
+	bounds: 228, 24, 39, 167
+	offsets: 17, 25, 73, 217
+FISHERMON/rods/rainbow_rod/rainbow_texture_4
+	bounds: 183, 24, 39, 167
+	offsets: 17, 25, 73, 217
+FISHERMON/rods/rainbow_rod/topper
+	bounds: 1296, 162, 23, 29
+FISHERMON/rods/spoon_rod
+	bounds: 132, 15, 46, 176

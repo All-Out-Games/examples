@@ -1,0 +1,13 @@
+{
+    projects:
+    [
+        {
+            name: "Octopus Games - Prod",
+            id:   "674f4d84a91518cb2e8fa0ed"
+        }
+        {
+            name: "Octopus Games - Staging",
+            id:   "674f560b31df6bfbacdb605d"
+        }
+    ]
+}

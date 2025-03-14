@@ -1,0 +1,13 @@
+{
+    "projects":
+    [
+        {
+            "name": "Fishermon (Main)",
+            "id": "675095a0e905a4db3fee01af"
+        },
+        {
+            "name": "Fishermon (Staging)",
+            "id": "67b37ccede9f78c453550fd4"
+        },
+    ],
+}

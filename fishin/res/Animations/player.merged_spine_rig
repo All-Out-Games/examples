@@ -1,0 +1,6 @@
+{
+    "base_rig": "Animations/fishin_player/playercharacter.spine",
+    "rigs_to_merge": [
+        { "rig": "$AO/schleem/playercharacter.spine", },
+    ],
+}

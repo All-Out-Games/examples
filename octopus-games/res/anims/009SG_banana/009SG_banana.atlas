@@ -1,0 +1,9 @@
+009SG_banana.png
+	size: 152, 344
+	filter: Linear, Linear
+banana
+	bounds: 6, 151, 137, 185
+	offsets: 0, 0, 150, 185
+banana_peel
+	bounds: 6, 6, 141, 138
+	rotate: 270

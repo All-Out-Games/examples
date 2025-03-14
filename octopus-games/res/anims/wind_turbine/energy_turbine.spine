@@ -1,0 +1,256 @@
+{
+"skeleton": { "hash": "WasGeS0ouNg", "spine": "4.0.64", "x": 74.41, "y": -87.23, "width": 428.34, "height": 606.11 },
+"bones": [
+	{ "name": "root" },
+	{ "name": "turbine", "parent": "root", "length": 100, "rotation": 89.85, "x": 0, "y": 60.08 },
+	{ "name": "Energy Turbine/Base", "parent": "root", "x": -6.06, "y": -33.28 },
+	{ "name": "generator_blades", "parent": "turbine", "rotation": -0.69, "x": 231.35, "y": 1.11 },
+	{ "name": "hand_R", "parent": "root", "x": 92.24, "y": -16.3 },
+	{ "name": "held_R", "parent": "hand_R" },
+	{ "name": "sign", "parent": "hand_R", "x": 6.1, "y": 6.22 },
+	{ "name": "hands_grasp2", "parent": "turbine", "x": 65.37, "y": 8.06 },
+	{ "name": "hands_grasp", "parent": "turbine", "x": -6.07, "y": -2.05 }
+],
+"slots": [
+	{ "name": "Energy Turbine/Base", "bone": "Energy Turbine/Base", "attachment": "Energy Turbine/Base" },
+	{ "name": "tower", "bone": "turbine", "attachment": "Energy Turbine/Pole" },
+	{ "name": "hands_grasp", "bone": "hands_grasp", "attachment": "crew_81/Energy Turbine/TurbineHand1" },
+	{ "name": "hands_grasp2", "bone": "hands_grasp2", "attachment": "crew_81/Energy Turbine/TurbineHand2" },
+	{ "name": "generator_blades", "bone": "generator_blades", "attachment": "Energy Turbine/Axels" },
+	{ "name": "overlay_piece", "bone": "turbine", "attachment": "Energy Turbine/Axel Middle" },
+	{ "name": "hand_R", "bone": "hand_R" },
+	{ "name": "held_R", "bone": "held_R" },
+	{ "name": "Protest Signs/sign 1", "bone": "sign" },
+	{ "name": "hand_r_sign", "bone": "sign" },
+	{ "name": "hand_l_sign", "bone": "sign" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"Energy Turbine/Base": {
+				"Energy Turbine/Base": { "x": 3.95, "y": 9.05, "width": 129, "height": 126 }
+			},
+			"generator_blades": {
+				"Energy Turbine/Axels": {
+					"type": "mesh",
+					"uvs": [ 0.60159, 0.52543, 1, 0.91266, 1, 1, 0.90739, 1, 0.58247, 0.75091, 0, 1, 0, 0.87835, 0.41046, 0.61856, 0.48691, 0, 0.59203, 0 ],
+					"triangles": [ 8, 9, 0, 7, 8, 0, 4, 7, 0, 4, 0, 1, 4, 5, 6, 4, 6, 7, 3, 4, 1, 3, 1, 2 ],
+					"vertices": [ -33.46, -41.82, -211.44, 118.95, -212.33, 156.15, -171.87, 157.11, -27.39, 54.41, 224.55, 166.55, 225.78, 114.74, 49.1, -0.16, 21.97, -264.39, -23.95, -265.49 ],
+					"hull": 10
+				}
+			},
+			"hands_grasp": {
+				"crew_81/Energy Turbine/TurbineHand1": { "x": 5.75, "y": 5.04, "rotation": 172.36, "width": 77, "height": 76 }
+			},
+			"hands_grasp2": {
+				"crew_81/Energy Turbine/TurbineHand2": { "x": 1.71, "y": -3.23, "rotation": 172.36, "width": 69, "height": 74 }
+			},
+			"hand_R": {
+				"crewmate/hands/hand_R_wave": { "x": -1.61, "y": 17.1, "rotation": 16.38, "width": 85, "height": 89 }
+			},
+			"held_R": {
+				"weapons/crewmate_walkingstick": { "y": -41.12, "width": 52, "height": 102 }
+			},
+			"overlay_piece": {
+				"Energy Turbine/Axel Middle": { "x": 230.81, "y": 4.77, "rotation": -179.33, "width": 51, "height": 50 }
+			},
+			"tower": {
+				"Energy Turbine/Pole": { "x": 124.2, "y": 1.56, "rotation": -89.33, "width": 77, "height": 389 }
+			}
+		}
+	}
+],
+"animations": {
+	"plug_base_idle": {
+		"slots": {
+			"generator_blades": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"hands_grasp": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"hands_grasp2": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"overlay_piece": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"tower": {
+				"attachment": [
+					{ "name": null }
+				]
+			}
+		}
+	},
+	"turbine_idle_loop": {
+		"slots": {
+			"hands_grasp": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"hands_grasp2": {
+				"attachment": [
+					{ "name": null }
+				]
+			}
+		},
+		"bones": {
+			"turbine": {
+				"rotate": [
+					{ "value": -1.65 }
+				],
+				"translate": [
+					{ "x": -0.16, "y": -0.13 }
+				]
+			},
+			"generator_blades": {
+				"rotate": [
+					{},
+					{ "time": 2.5, "value": -360 }
+				]
+			}
+		}
+	},
+	"turbine_placement": {
+		"slots": {
+			"hands_grasp": {
+				"attachment": [
+					{ "time": 0.5833, "name": null }
+				]
+			},
+			"hands_grasp2": {
+				"attachment": [
+					{ "time": 0.7083, "name": null }
+				]
+			},
+			"hand_R": {
+				"attachment": [
+					{ "time": 0.5833, "name": "crewmate/hands/hand_R_wave" },
+					{ "time": 0.7917, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"turbine": {
+				"rotate": [
+					{
+						"value": 42.22,
+						"curve": [ 0.056, 60.72, 0.111, 98.15 ]
+					},
+					{
+						"time": 0.1667,
+						"value": 98.15,
+						"curve": [ 0.223, 98.15, 0.257, 113.75 ]
+					},
+					{
+						"time": 0.2917,
+						"value": 94.07,
+						"curve": [ 0.327, 74.65, 0.361, 27.53 ]
+					},
+					{ "time": 0.4167, "value": 2.85 },
+					{
+						"time": 0.4583,
+						"value": -5.91,
+						"curve": [ 0.478, -5.91, 0.509, -9.24 ]
+					},
+					{
+						"time": 0.5417,
+						"value": -7.2,
+						"curve": [ 0.602, -3.54, 0.589, 2.63 ]
+					},
+					{
+						"time": 0.625,
+						"value": 2.63,
+						"curve": [ 0.653, 2.63, 0.681, -1.65 ]
+					},
+					{ "time": 0.7083, "value": -1.65 }
+				],
+				"translate": [
+					{ "x": -165.14, "y": 97.2 },
+					{ "time": 0.1667, "x": -338.35, "y": 150.95 },
+					{ "time": 0.2917, "x": -234.03, "y": 239.1 },
+					{ "time": 0.375, "x": -58.31, "y": 173.55 },
+					{ "time": 0.4167, "x": -4.3, "y": 4.07 },
+					{ "time": 0.5, "x": 4.19, "y": -6.66 },
+					{ "time": 0.625, "x": -2.34, "y": -0.13 },
+					{ "time": 0.7083, "x": -0.16, "y": -0.13 }
+				],
+				"scale": [
+					{ "time": 0.2917 },
+					{ "time": 0.4167, "x": 1.075, "y": 1.175 },
+					{ "time": 0.5, "x": 0.959, "y": 1.352 },
+					{ "time": 0.625 }
+				]
+			},
+			"generator_blades": {
+				"rotate": [
+					{},
+					{ "time": 0.2083, "value": 26.55 },
+					{ "time": 0.5, "value": 50.17 }
+				]
+			},
+			"hand_R": {
+				"rotate": [
+					{
+						"time": 0.5833,
+						"value": -95.92,
+						"curve": [ 0.639, -95.92, 0.736, -76.92 ]
+					},
+					{ "time": 0.7917, "value": -76.92 }
+				],
+				"translate": [
+					{
+						"time": 0.5833,
+						"x": 135.65,
+						"y": 84.39,
+						"curve": [ 0.639, 135.65, 0.736, -68.56, 0.639, 84.39, 0.736, 15.84 ]
+					},
+					{ "time": 0.7917, "x": -68.56, "y": 15.84 }
+				]
+			},
+			"hands_grasp2": {
+				"translate": [
+					{
+						"time": 0.4167,
+						"curve": [ 0.458, -7.44, 0.5, -11.17, 0.458, 0, 0.5, 0 ]
+					},
+					{ "time": 0.5417, "x": -11.17, "curve": "stepped" },
+					{
+						"time": 0.625,
+						"x": -11.17,
+						"curve": [ 0.653, -11.17, 0.681, 4.71, 0.653, 0, 0.681, 0.5 ]
+					},
+					{ "time": 0.7083, "x": 4.71, "y": 0.5 }
+				]
+			},
+			"hands_grasp": {
+				"translate": [
+					{
+						"time": 0.4167,
+						"curve": [ 0.458, -7.44, 0.5, -11.17, 0.458, 0, 0.5, 0 ]
+					},
+					{ "time": 0.5417, "x": -11.17 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0.5833,
+				"offsets": [
+					{ "slot": "hand_R", "offset": -6 }
+				]
+			}
+		]
+	}
+}
+}

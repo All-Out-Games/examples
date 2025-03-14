@@ -1,0 +1,4 @@
+[
+    { id: "environments/red_light_green_light/reworked_map/images/ground/sand.png", texture: { wrap_repeat: true, }, },
+    { id: "environments/red_light_green_light/reworked_map/images/ground/finish_line.png", texture: { wrap_repeat: true, }, },
+]

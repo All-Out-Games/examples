@@ -1,0 +1,14 @@
+bin
+generated
+obj
+Assembly.csproj
+build
+scene_backups
+scene_temp
+.idea
+.vs
+*.ao
+*.ao.astc
+res/.preprocessed
+asset_report.txt
+*.psd

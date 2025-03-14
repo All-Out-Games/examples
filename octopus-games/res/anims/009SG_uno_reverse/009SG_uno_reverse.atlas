@@ -1,0 +1,23 @@
+009SG_uno_reverse.png
+	size: 920, 356
+	filter: Linear, Linear
+009SG_disco_ball_vfx/glow_aura
+	bounds: 6, 35, 318, 312
+	offsets: 8, 12, 333, 334
+009SG_disco_ball_vfx/light_shaft
+	bounds: 826, 170, 177, 88
+	offsets: 3, 3, 190, 94
+	rotate: 90
+009SG_disco_ball_vfx/under_light
+	bounds: 479, 36, 96, 66
+	offsets: 5, 3, 106, 73
+disco_ball1
+	bounds: 652, 6, 167, 168
+	rotate: 90
+disco_ball2
+	bounds: 652, 179, 167, 168
+disco_ball3
+	bounds: 479, 108, 167, 168
+disco_ball_trail
+	bounds: 330, 35, 241, 143
+	rotate: 90

@@ -1,0 +1,6 @@
+009SG_spider_web.png
+	size: 400, 316
+	filter: Linear, Linear
+spider_web
+	bounds: 6, 6, 385, 304
+	offsets: 1, 1, 387, 306

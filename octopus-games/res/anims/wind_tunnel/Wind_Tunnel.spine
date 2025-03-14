@@ -1,0 +1,90 @@
+{
+"skeleton": { "hash": "k4KnCQhyGlE", "spine": "4.0.64" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "wind_tunnel", "parent": "root" }
+],
+"slots": [
+	{ "name": "wind tunnel FX/wind_1", "bone": "wind_tunnel" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"wind tunnel FX/wind_1": {
+				"wind tunnel FX/wind_1": { "x": 3.81, "y": 2.67, "width": 214, "height": 161 },
+				"wind tunnel FX/wind_2": { "x": 6.31, "y": 2.67, "width": 226, "height": 161 },
+				"wind tunnel FX/wind_3": { "x": 5.31, "y": 2.67, "width": 225, "height": 161 },
+				"wind tunnel FX/wind_4": { "x": 8.81, "y": 2.67, "width": 244, "height": 161 },
+				"wind tunnel FX/wind_5": { "x": 1.81, "y": 2.67, "width": 237, "height": 161 }
+			}
+		}
+	}
+],
+"animations": {
+	"dissapate": {
+		"slots": {
+			"wind tunnel FX/wind_1": {
+				"rgba": [
+					{ "color": "ffffffff" },
+					{ "time": 0.3, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "wind tunnel FX/wind_1" },
+					{ "time": 0.0667, "name": "wind tunnel FX/wind_2" },
+					{ "time": 0.1333, "name": "wind tunnel FX/wind_3" },
+					{ "time": 0.2, "name": "wind tunnel FX/wind_4" },
+					{ "time": 0.2667, "name": "wind tunnel FX/wind_5" },
+					{ "time": 0.3333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"wind_tunnel": {
+				"translate": [
+					{
+						"curve": [ 0.111, -126.59, 0.222, -209.54, 0.111, 0, 0.222, 0 ]
+					},
+					{ "time": 0.3333, "x": -209.54 }
+				],
+				"scale": [
+					{
+						"curve": [ 0.111, 2.382, 0.222, 3.072, 0.111, 1.186, 0.222, 1.278 ]
+					},
+					{ "time": 0.3333, "x": 3.072, "y": 1.278 }
+				]
+			}
+		}
+	},
+	"wind_tunnel": {
+		"slots": {
+			"wind tunnel FX/wind_1": {
+				"attachment": [
+					{ "name": "wind tunnel FX/wind_1" },
+					{ "time": 0.0667, "name": "wind tunnel FX/wind_2" },
+					{ "time": 0.1333, "name": "wind tunnel FX/wind_3" },
+					{ "time": 0.2, "name": "wind tunnel FX/wind_4" },
+					{ "time": 0.2667, "name": "wind tunnel FX/wind_5" },
+					{ "time": 0.3333, "name": "wind tunnel FX/wind_1" }
+				]
+			}
+		},
+		"bones": {
+			"wind_tunnel": {
+				"scale": [
+					{
+						"curve": [ 0.044, 1, 0.089, 1.262, 0.044, 1, 0.089, 0.873 ]
+					},
+					{
+						"time": 0.1333,
+						"x": 1.262,
+						"y": 0.873,
+						"curve": [ 0.2, 1.262, 0.267, 1, 0.2, 0.873, 0.267, 1 ]
+					},
+					{ "time": 0.3333 }
+				]
+			}
+		}
+	}
+}
+}

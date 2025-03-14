@@ -1,0 +1,232 @@
+{
+"skeleton": { "hash": "kpR1YqHU+N8", "spine": "4.0.64", "x": -198.25, "y": -83.43, "width": 459, "height": 1145 },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "y": 1000 },
+	{ "name": "RING", "parent": "root" },
+	{ "name": "bone2", "parent": "RING" },
+	{ "name": "bone3", "parent": "root" }
+],
+"slots": [
+	{ "name": "F3 loop/loop F1/glow f1", "bone": "bone3" },
+	{ "name": "F3 loop/loop F1/center f1", "bone": "bone3" },
+	{ "name": "F3 loop/loop F1/outer ring f1", "bone": "bone2" },
+	{ "name": "F3 loop/loop F1/lightning loop1 front", "bone": "bone", "attachment": "F3 loop/loop F1/lightning loop1 front" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"F3 loop/loop F1/center f1": {
+				"F3 loop/loop F1/center f1": { "x": 12.81, "y": -9.61, "width": 512, "height": 178 },
+				"F3 loop/loop F2/center f2": { "x": 16.01, "y": 8.01, "width": 293, "height": 174 },
+				"F3 loop/loop F3/center f3": { "width": 391, "height": 153 }
+			},
+			"F3 loop/loop F1/glow f1": {
+				"F3 loop/loop F1/glow f1": { "width": 838, "height": 419 }
+			},
+			"F3 loop/loop F1/lightning loop1 front": {
+				"F3 loop/loop F1/lightning loop1 front": { "x": 31.25, "y": -510.93, "width": 459, "height": 1145 },
+				"F3 loop/loop F2/lightning loop1 front": { "y": -482.08, "width": 345, "height": 1126 },
+				"F3 loop/loop F3/lightning loop1 front": { "x": -2.84, "y": -482.08, "width": 367, "height": 1118 },
+				"lightning F1": { "y": -500, "width": 177, "height": 1066 },
+				"lightning F2": { "y": -500, "width": 256, "height": 1075 },
+				"lightning F4": { "y": -500, "width": 158, "height": 1086 },
+				"lightning F5": { "y": -500, "width": 97, "height": 944 }
+			},
+			"F3 loop/loop F1/outer ring f1": {
+				"F3 loop/loop F1/outer ring f1": { "x": 7.06, "y": -3.28, "width": 737, "height": 354 },
+				"F3 loop/loop F2/outer ring f2": { "x": 7.06, "y": -8.08, "width": 738, "height": 364 },
+				"F3 loop/loop F3/outer ring f3": { "x": 21.47, "y": 14.34, "width": 701, "height": 387 }
+			}
+		}
+	}
+],
+"animations": {
+	"end": {
+		"slots": {
+			"F3 loop/loop F1/center f1": {
+				"rgba": [
+					{ "time": 0.1167, "color": "ffffffff" },
+					{ "time": 0.3333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "F3 loop/loop F2/center f2" },
+					{ "time": 0.05, "name": "F3 loop/loop F3/center f3" },
+					{ "time": 0.15, "name": "F3 loop/loop F1/center f1" },
+					{ "time": 0.25, "name": "F3 loop/loop F2/center f2" },
+					{ "time": 0.35, "name": "F3 loop/loop F3/center f3" },
+					{ "time": 0.45, "name": "F3 loop/loop F1/center f1" },
+					{ "time": 0.55, "name": "F3 loop/loop F2/center f2" }
+				]
+			},
+			"F3 loop/loop F1/glow f1": {
+				"rgba": [
+					{ "time": 0.1167, "color": "ffffffff" },
+					{ "time": 0.3333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "F3 loop/loop F1/glow f1" }
+				]
+			},
+			"F3 loop/loop F1/lightning loop1 front": {
+				"rgba": [
+					{ "time": 0.2833, "color": "ffffffff" },
+					{ "time": 0.5833, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.1, "name": "F3 loop/loop F2/lightning loop1 front" },
+					{ "time": 0.2, "name": "F3 loop/loop F3/lightning loop1 front" },
+					{ "time": 0.2833, "name": "lightning F1" },
+					{ "time": 0.3667, "name": "lightning F4" },
+					{ "time": 0.45, "name": "lightning F5" }
+				]
+			},
+			"F3 loop/loop F1/outer ring f1": {
+				"rgba": [
+					{ "time": 0.1167, "color": "ffffffff" },
+					{ "time": 0.3333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "F3 loop/loop F1/outer ring f1" },
+					{ "time": 0.05, "name": "F3 loop/loop F2/outer ring f2" },
+					{ "time": 0.15, "name": "F3 loop/loop F3/outer ring f3" },
+					{ "time": 0.25, "name": "F3 loop/loop F1/outer ring f1" },
+					{ "time": 0.35, "name": "F3 loop/loop F2/outer ring f2" },
+					{ "time": 0.45, "name": "F3 loop/loop F3/outer ring f3" },
+					{ "time": 0.55, "name": "F3 loop/loop F1/outer ring f1" }
+				]
+			}
+		},
+		"bones": {
+			"bone": {
+				"scale": [
+					{ "time": 0.0667 },
+					{ "time": 0.15, "x": 1.205 },
+					{ "time": 0.6167, "x": 0.747 }
+				]
+			},
+			"bone2": {
+				"scale": [
+					{ "time": 0.1333 },
+					{ "time": 0.3833, "x": 1.625, "y": 0.579 }
+				]
+			}
+		}
+	},
+	"loop": {
+		"slots": {
+			"F3 loop/loop F1/center f1": {
+				"attachment": [
+					{ "name": "F3 loop/loop F2/center f2" },
+					{ "time": 0.05, "name": "F3 loop/loop F3/center f3" },
+					{ "time": 0.15, "name": "F3 loop/loop F1/center f1" },
+					{ "time": 0.25, "name": "F3 loop/loop F2/center f2" },
+					{ "time": 0.35, "name": "F3 loop/loop F3/center f3" },
+					{ "time": 0.45, "name": "F3 loop/loop F1/center f1" },
+					{ "time": 0.55, "name": "F3 loop/loop F2/center f2" },
+					{ "time": 0.65, "name": "F3 loop/loop F3/center f3" },
+					{ "time": 0.75, "name": "F3 loop/loop F1/center f1" },
+					{ "time": 0.85, "name": "F3 loop/loop F2/center f2" }
+				]
+			},
+			"F3 loop/loop F1/glow f1": {
+				"attachment": [
+					{ "name": "F3 loop/loop F1/glow f1" }
+				]
+			},
+			"F3 loop/loop F1/lightning loop1 front": {
+				"attachment": [
+					{ "time": 0.1, "name": "F3 loop/loop F2/lightning loop1 front" },
+					{ "time": 0.2, "name": "F3 loop/loop F3/lightning loop1 front" },
+					{ "time": 0.3, "name": "F3 loop/loop F1/lightning loop1 front" },
+					{ "time": 0.4, "name": "F3 loop/loop F2/lightning loop1 front" },
+					{ "time": 0.5, "name": "F3 loop/loop F3/lightning loop1 front" },
+					{ "time": 0.6, "name": "F3 loop/loop F1/lightning loop1 front" },
+					{ "time": 0.7, "name": "F3 loop/loop F2/lightning loop1 front" },
+					{ "time": 0.8, "name": "F3 loop/loop F3/lightning loop1 front" },
+					{ "time": 0.9, "name": "F3 loop/loop F1/lightning loop1 front" }
+				]
+			},
+			"F3 loop/loop F1/outer ring f1": {
+				"attachment": [
+					{ "name": "F3 loop/loop F1/outer ring f1" },
+					{ "time": 0.05, "name": "F3 loop/loop F2/outer ring f2" },
+					{ "time": 0.15, "name": "F3 loop/loop F3/outer ring f3" },
+					{ "time": 0.25, "name": "F3 loop/loop F1/outer ring f1" },
+					{ "time": 0.35, "name": "F3 loop/loop F2/outer ring f2" },
+					{ "time": 0.45, "name": "F3 loop/loop F3/outer ring f3" },
+					{ "time": 0.55, "name": "F3 loop/loop F1/outer ring f1" },
+					{ "time": 0.65, "name": "F3 loop/loop F2/outer ring f2" },
+					{ "time": 0.75, "name": "F3 loop/loop F3/outer ring f3" },
+					{ "time": 0.85, "name": "F3 loop/loop F1/outer ring f1" }
+				]
+			}
+		}
+	},
+	"start": {
+		"slots": {
+			"F3 loop/loop F1/center f1": {
+				"attachment": [
+					{ "time": 0.2333, "name": "F3 loop/loop F2/center f2" },
+					{ "time": 0.2833, "name": "F3 loop/loop F3/center f3" },
+					{ "time": 0.3833, "name": "F3 loop/loop F1/center f1" },
+					{ "time": 0.4833, "name": "F3 loop/loop F2/center f2" }
+				]
+			},
+			"F3 loop/loop F1/glow f1": {
+				"attachment": [
+					{ "time": 0.2333, "name": "F3 loop/loop F1/glow f1" }
+				]
+			},
+			"F3 loop/loop F1/lightning loop1 front": {
+				"attachment": [
+					{ "name": "lightning F1" },
+					{ "time": 0.1667, "name": "lightning F2" },
+					{ "time": 0.2333, "name": "F3 loop/loop F1/lightning loop1 front" },
+					{ "time": 0.3333, "name": "F3 loop/loop F2/lightning loop1 front" },
+					{ "time": 0.4333, "name": "F3 loop/loop F3/lightning loop1 front" },
+					{ "time": 0.5333, "name": "F3 loop/loop F1/lightning loop1 front" }
+				]
+			},
+			"F3 loop/loop F1/outer ring f1": {
+				"attachment": [
+					{ "time": 0.2333, "name": "F3 loop/loop F1/outer ring f1" },
+					{ "time": 0.2833, "name": "F3 loop/loop F2/outer ring f2" },
+					{ "time": 0.3833, "name": "F3 loop/loop F3/outer ring f3" },
+					{ "time": 0.4833, "name": "F3 loop/loop F1/outer ring f1" }
+				]
+			}
+		},
+		"bones": {
+			"bone": {
+				"scale": [
+					{
+						"y": 0.186,
+						"curve": [ 0.022, 1, 0.111, 1, 0.05, 0.186, 0.109, 0.704 ]
+					},
+					{
+						"time": 0.1333,
+						"x": 1.082,
+						"curve": [ 0.144, 1.122, 0.156, 2.051, 0.138, 1.057, 0.156, 1.027 ]
+					},
+					{
+						"time": 0.1667,
+						"x": 2.051,
+						"y": 1.027,
+						"curve": [ 0.217, 2.051, 0.267, 1.228, 0.217, 1.027, 0.267, 1 ]
+					},
+					{ "time": 0.3167 }
+				]
+			},
+			"bone2": {
+				"scale": [
+					{ "time": 0.2333, "x": 0.68, "y": 0.68 },
+					{ "time": 0.35, "x": 1.071, "y": 1.071 },
+					{ "time": 0.5333 }
+				]
+			}
+		}
+	}
+}
+}

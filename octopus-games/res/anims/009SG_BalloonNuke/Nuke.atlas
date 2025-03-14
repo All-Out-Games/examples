@@ -1,0 +1,121 @@
+Nuke.png
+	size: 4092, 664
+	filter: Linear, Linear
+	scale: 0.5
+images/balloon_nuke
+	bounds: 1457, 199, 298, 459
+images/base/base_cloud_A
+	bounds: 3426, 188, 210, 196
+	offsets: 3, 4, 217, 204
+images/base/base_cloud_B
+	bounds: 3743, 409, 249, 216
+	offsets: 3, 4, 256, 224
+	rotate: 90
+images/base/base_cloud_D
+	bounds: 2291, 51, 175, 139
+	offsets: 4, 4, 183, 146
+images/base/base_cloud_E
+	bounds: 3965, 426, 112, 105
+	offsets: 3, 3, 118, 111
+images/ember_A
+	bounds: 3642, 336, 48, 48
+	offsets: 4, 4, 56, 56
+images/ember_B
+	bounds: 3992, 370, 70, 50
+	offsets: 4, 4, 78, 58
+images/glow
+	bounds: 2972, 44, 146, 146
+	offsets: 4, 4, 154, 154
+images/initial_burst/burst_A
+	bounds: 3250, 390, 268, 242
+	offsets: 2, 2, 272, 246
+	rotate: 90
+images/initial_burst/burst_B
+	bounds: 924, 6, 195, 187
+	offsets: 2, 3, 199, 192
+images/initial_burst/spike
+	bounds: 3966, 236, 20, 184
+images/nuke_glow
+	bounds: 2983, 397, 261, 261
+	offsets: 11, 11, 283, 275
+images/shockwave/shockwave_A
+	bounds: 2296, 362, 260, 296
+	offsets: 3, 3, 266, 301
+images/shockwave/shockwave_B
+	bounds: 3426, 114, 163, 68
+	offsets: 3, 3, 169, 73
+images/shockwave/shockwave_C
+	bounds: 2562, 250, 408, 171
+	offsets: 3, 3, 414, 177
+	rotate: 90
+images/shockwave/shockwave_D
+	bounds: 687, 32, 231, 161
+	offsets: 4, 3, 238, 167
+images/shockwave/shockwave_E
+	bounds: 1457, 74, 215, 119
+	offsets: 3, 2, 221, 124
+images/shockwave/shockwave_F
+	bounds: 3498, 390, 268, 239
+	offsets: 3, 3, 274, 244
+	rotate: 90
+images/smoke_rings/bottom_ring_A
+	bounds: 3965, 537, 121, 121
+	offsets: 2, 3, 126, 128
+images/smoke_rings/bottom_ring_B
+	bounds: 2739, 371, 238, 287
+	offsets: 2, 2, 243, 291
+images/smoke_rings/bottom_ring_C
+	bounds: 2063, 263, 395, 227
+	offsets: 2, 3, 401, 233
+	rotate: 90
+images/smoke_rings/bottom_ring_D
+	bounds: 1228, 8, 650, 222
+	offsets: 8, 2, 662, 229
+	rotate: 90
+images/smoke_rings/bottom_ring_E
+	bounds: 3219, 179, 201, 205
+	offsets: 5, 2, 208, 209
+images/smoke_rings/bottom_ring_F
+	bounds: 2727, 64, 144, 120
+	offsets: 3, 2, 150, 124
+images/smoke_rings/middle_ring_A
+	bounds: 2296, 196, 255, 160
+	offsets: 2, 2, 261, 164
+images/smoke_rings/middle_ring_B
+	bounds: 1678, 121, 174, 53
+	offsets: 3, 2, 179, 58
+images/smoke_rings/middle_ring_C
+	bounds: 2739, 190, 227, 175
+	offsets: 4, 3, 233, 181
+images/smoke_rings/middle_ring_D
+	bounds: 2557, 57, 164, 187
+	offsets: 2, 2, 171, 192
+images/smoke_rings/middle_ring_E
+	bounds: 1761, 288, 288, 45
+	offsets: 4, 2, 296, 50
+images/smoke_rings/middle_ring_F
+	bounds: 473, 20, 185, 208
+	offsets: 5, 2, 192, 212
+	rotate: 90
+images/smoke_rings/top_ring_A
+	bounds: 473, 211, 416, 447
+	offsets: 3, 2, 428, 451
+images/smoke_rings/top_ring_B
+	bounds: 1761, 180, 524, 77
+	offsets: 10, 3, 541, 83
+images/smoke_rings/top_ring_C
+	bounds: 895, 199, 328, 459
+	offsets: 7, 3, 337, 466
+images/stalk
+	bounds: 6, 26, 461, 632
+	offsets: 2, 4, 465, 639
+images/top/top_cloud_A
+	bounds: 1761, 339, 296, 319
+	offsets: 4, 5, 304, 328
+images/top/top_cloud_B
+	bounds: 2983, 196, 230, 195
+	offsets: 5, 4, 239, 203
+images/top/top_cloud_C
+	bounds: 3743, 158, 245, 217
+	offsets: 4, 4, 253, 225
+	rotate: 90

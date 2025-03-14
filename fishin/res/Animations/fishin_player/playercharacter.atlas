@@ -1,0 +1,313 @@
+playercharacter.png
+	size: 4096, 268
+	filter: Linear, Linear
+	scale: 0.5
+100_buttons/vfx/blue_button
+	bounds: 2944, 165, 97, 94
+	rotate: 90
+100_buttons/vfx/electrocute/electricity_sparks1
+	bounds: 3557, 95, 62, 79
+100_buttons/vfx/electrocute/electricity_sparks2
+	bounds: 2223, 46, 63, 35
+100_buttons/vfx/electrocute/electricity_sparks3
+	bounds: 3011, 48, 74, 46
+100_buttons/vfx/electrocute/electrocute_aura1
+	bounds: 1651, 47, 195, 215
+	offsets: 1, 1, 197, 217
+100_buttons/vfx/electrocute/electrocute_aura2
+	bounds: 1436, 52, 210, 209
+	offsets: 1, 1, 212, 211
+	rotate: 90
+100_buttons/vfx/feathers1
+	bounds: 3774, 12, 29, 31
+100_buttons/vfx/feathers2
+	bounds: 3525, 105, 25, 35
+100_buttons/vfx/feathers3
+	bounds: 1476, 19, 40, 27
+100_buttons/vfx/red_button
+	bounds: 2844, 165, 97, 94
+	rotate: 90
+100_buttons/vfx/smoke_particle
+	bounds: 2292, 34, 47, 46
+	offsets: 1, 1, 49, 49
+100_buttons/vfx/smoke_particle2
+	bounds: 1894, 28, 40, 36
+	offsets: 1, 2, 42, 39
+100_buttons/vfx/smoke_particle3
+	bounds: 1619, 10, 27, 31
+	offsets: 1, 1, 31, 33
+100_buttons/vfx/weapon_swings/swipe333
+	bounds: 1852, 112, 150, 311
+	rotate: 90
+100_buttons/vfx/yellow_button
+	bounds: 2744, 165, 97, 94
+	rotate: 90
+2.0.1_additions/eyes/crying/lid_watery_L
+	bounds: 3669, 40, 62, 49
+2.0.1_additions/eyes/crying/lid_watery_R
+	bounds: 3091, 48, 69, 34
+2.0.1_additions/eyes/crying/lighteye_watery_L
+	bounds: 3737, 49, 62, 40
+2.0.1_additions/eyes/crying/lighteye_watery_R
+	bounds: 3737, 49, 62, 40
+2.0.1_additions/eyes/crying/tear_watery_L
+	bounds: 1940, 18, 41, 29
+2.0.1_additions/eyes/crying/tear_watery_R
+	bounds: 2990, 15, 33, 27
+2.0.1_additions/eyes/lid_rage_L
+	bounds: 3557, 180, 82, 81
+	rotate: 90
+2.0.1_additions/eyes/lid_rage_R
+	bounds: 3824, 181, 80, 81
+2.0.1_additions/mouths/mouth_cheesy_grin
+	bounds: 3226, 143, 119, 65
+	rotate: 90
+2.0.1_additions/mouths/mouth_closed_teeth_pain
+	bounds: 2451, 49, 64, 28
+2.0.1_additions/mouths/mouth_concentration
+	bounds: 3954, 66, 95, 36
+2.0.1_additions/mouths/mouth_grimace
+	bounds: 2744, 71, 102, 40
+2.0.1_additions/mouths/mouth_open_scream1
+	bounds: 4055, 42, 60, 30
+	rotate: 90
+2.0.1_additions/mouths/mouth_open_scream2
+	bounds: 2345, 42, 54, 38
+2.0.1_additions/mouths/mouth_rage
+	bounds: 3011, 100, 126, 46
+2.0.1_additions/mouths/mouth_slack_jawed
+	bounds: 1968, 53, 74, 54
+2.0.1_additions/mouths/mouth_smug
+	bounds: 1852, 70, 110, 37
+	offsets: 0, 1, 110, 38
+2.0.1_additions/mouths/mouth_starstruck
+	bounds: 3954, 170, 92, 68
+	rotate: 90
+2.0.1_additions/mouths/punched_mouth
+	bounds: 3349, 139, 123, 58
+	rotate: 90
+2.0.1_additions/puffy_cheek
+	bounds: 3451, 71, 68, 69
+2.0.1_additions/puffy_cheek_sick
+	bounds: 3143, 88, 68, 69
+EMOTE_VFX/golden_aura/aura_1
+	bounds: 1203, 7, 227, 255
+EMOTE_VFX/golden_aura/aura_2
+	bounds: 248, 6, 236, 256
+EMOTE_VFX/golden_aura/aura_3
+	bounds: 730, 6, 234, 256
+EMOTE_VFX/golden_aura/shock_A
+	bounds: 3525, 38, 66, 51
+	offsets: 1, 1, 68, 53
+EMOTE_VFX/golden_aura/shock_B
+	bounds: 2631, 35, 44, 43
+	offsets: 1, 1, 46, 45
+EMOTE_VFX/golden_aura/shock_C
+	bounds: 3597, 41, 66, 48
+	offsets: 1, 1, 68, 50
+EMOTE_VFX/golden_aura/shock_D
+	bounds: 2920, 46, 64, 38
+	offsets: 1, 1, 66, 40
+EMOTE_VFX/golden_aura/shock_E
+	bounds: 2489, 83, 92, 50
+	offsets: 1, 1, 94, 52
+EMOTE_VFX/golden_aura/shock_F
+	bounds: 3451, 33, 51, 32
+	offsets: 1, 1, 53, 34
+EMOTE_VFX/heart  3
+	bounds: 2099, 53, 63, 56
+EMOTE_VFX/poop/poop_fall
+	bounds: 2330, 86, 153, 176
+EMOTE_VFX/poop/poop_land
+	bounds: 2168, 87, 175, 156
+	rotate: 90
+EMOTE_VFX/poop/poop_particle1
+	bounds: 3262, 39, 47, 41
+EMOTE_VFX/poop/poop_particle2
+	bounds: 2921, 90, 84, 69
+EMOTE_VFX/poop/poop_particle3
+	bounds: 3413, 168, 94, 73
+	rotate: 90
+EMOTE_VFX/teleport/back shadow
+	bounds: 2489, 139, 123, 123
+	offsets: 13, 12, 150, 148
+EMOTE_VFX/teleport/kanji1
+	bounds: 3262, 96, 29, 41
+EMOTE_VFX/teleport/kanji2
+	bounds: 3166, 29, 43, 53
+EMOTE_VFX/teleport/teleport cloud1
+	bounds: 3349, 75, 43, 58
+EMOTE_VFX/teleport/teleport cloud2
+	bounds: 3737, 12, 31, 31
+	offsets: 1, 1, 33, 33
+EMOTE_VFX/teleport/teleport cloud3
+	bounds: 2587, 28, 38, 50
+EMOTE_VFX/teleport/teleport cloud4
+	bounds: 2852, 56, 62, 55
+	offsets: 0, 1, 63, 57
+EMOTE_VFX/ultra_instinct_aura/aura_1
+	bounds: 970, 7, 227, 255
+EMOTE_VFX/ultra_instinct_aura/aura_2
+	bounds: 6, 6, 236, 256
+EMOTE_VFX/ultra_instinct_aura/aura_3
+	bounds: 490, 6, 234, 256
+FISHERMON/rods/aurora_rod/aurora_back
+	bounds: 2727, 20, 33, 45
+FISHERMON/rods/aurora_rod/aurora_front
+	bounds: 3217, 27, 39, 110
+FISHERMON/rods/aurora_rod/aurora_rod
+	bounds: 3873, 11, 30, 164
+FISHERMON/rods/aurora_rod/shimmer_particle
+	bounds: 3625, 144, 10, 10
+	offsets: 1, 1, 12, 12
+FISHERMON/rods/balloon_rod
+	bounds: 2683, 77, 55, 185
+FISHERMON/rods/banana_rod
+	bounds: 2618, 84, 59, 178
+FISHERMON/rods/crystal_rod
+	bounds: 3910, 97, 38, 165
+FISHERMON/rods/galaxy_rod/constellation_line
+	bounds: 1917, 233, 32, 4
+FISHERMON/rods/galaxy_rod/galaxy_circle
+	bounds: 2168, 34, 49, 47
+FISHERMON/rods/galaxy_rod/galaxy_rod
+	bounds: 3413, 12, 32, 150
+FISHERMON/rods/galaxy_rod/star_A
+	bounds: 3805, 55, 19, 22
+	offsets: 2, 1, 23, 24
+FISHERMON/rods/galaxy_rod/star_B
+	bounds: 3625, 160, 9, 14
+FISHERMON/rods/hologram_rod/fish_projection_A
+	bounds: 1852, 23, 36, 41
+FISHERMON/rods/hologram_rod/fish_projection_B
+	bounds: 3361, 26, 38, 43
+FISHERMON/rods/hologram_rod/flare_particle
+	bounds: 1955, 233, 20, 4
+	offsets: 2, 0, 24, 4
+FISHERMON/rods/hologram_rod/hologram_rod
+	bounds: 3909, 35, 35, 56
+FISHERMON/rods/hologram_rod/light_shaft
+	bounds: 2010, 246, 8, 16
+	offsets: 1, 0, 9, 18
+FISHERMON/rods/hologram_rod/pixel_particle
+	bounds: 2024, 255, 7, 7
+FISHERMON/rods/hologram_rod/projection
+	bounds: 3954, 108, 56, 111
+	rotate: 90
+FISHERMON/rods/lightsaber/lightsaber_rod
+	bounds: 2048, 33, 34, 73
+FISHERMON/rods/lightsaber/line
+	bounds: 1852, 243, 19, 152
+	rotate: 90
+FISHERMON/rods/plasma_rod/globe_plasma_1
+	bounds: 1577, 17, 36, 29
+	offsets: 1, 1, 38, 31
+FISHERMON/rods/plasma_rod/globe_plasma_2
+	bounds: 1436, 14, 34, 32
+	offsets: 1, 1, 36, 34
+FISHERMON/rods/plasma_rod/globe_plasma_3
+	bounds: 2451, 11, 31, 32
+	offsets: 0, 0, 32, 33
+FISHERMON/rods/plasma_rod/plasma_A
+	bounds: 1734, 19, 34, 22
+	offsets: 1, 1, 36, 24
+FISHERMON/rods/plasma_rod/plasma_B
+	bounds: 1652, 14, 30, 27
+	offsets: 1, 1, 32, 29
+FISHERMON/rods/plasma_rod/plasma_C
+	bounds: 2130, 244, 26, 18
+	offsets: 1, 0, 27, 19
+FISHERMON/rods/plasma_rod/plasma_D
+	bounds: 1688, 22, 40, 19
+	offsets: 1, 0, 42, 20
+FISHERMON/rods/plasma_rod/plasma_E
+	bounds: 3029, 21, 40, 21
+	offsets: 1, 1, 42, 23
+FISHERMON/rods/plasma_rod/plasma_rod
+	bounds: 3824, 9, 43, 166
+FISHERMON/rods/plasma_rod/plasma_rod_back
+	bounds: 2766, 28, 40, 37
+FISHERMON/rods/rainbow_rod/glow
+	bounds: 4028, 207, 54, 55
+	offsets: 4, 3, 61, 61
+FISHERMON/rods/rainbow_rod/light_shaft
+	bounds: 4071, 139, 13, 31
+	offsets: 1, 1, 15, 34
+FISHERMON/rods/rainbow_rod/rainbow_rod
+	bounds: 2744, 116, 43, 171
+	rotate: 90
+FISHERMON/rods/rainbow_rod/rainbow_texture_1
+	bounds: 3779, 95, 39, 167
+	offsets: 17, 25, 73, 217
+FISHERMON/rods/rainbow_rod/rainbow_texture_2
+	bounds: 3734, 95, 39, 167
+	offsets: 17, 25, 73, 217
+FISHERMON/rods/rainbow_rod/rainbow_texture_3
+	bounds: 3689, 95, 39, 167
+	offsets: 17, 25, 73, 217
+FISHERMON/rods/rainbow_rod/rainbow_texture_4
+	bounds: 3644, 95, 39, 167
+	offsets: 17, 25, 73, 217
+FISHERMON/rods/rainbow_rod/topper
+	bounds: 2587, 104, 23, 29
+FISHERMON/rods/spoon_rod
+	bounds: 3297, 86, 46, 176
+base_colours/crewchsia/body_base
+	bounds: 3044, 151, 92, 111
+	offsets: 42, 31, 179, 180
+base_colours/crewchsia/eyeball_L
+	bounds: 3315, 27, 40, 42
+	offsets: 1, 0, 42, 42
+base_colours/crewchsia/eyeball_R
+	bounds: 2521, 36, 41, 41
+base_colours/crewchsia/eyelids/lid_angry
+	bounds: 1987, 17, 38, 30
+	offsets: 0, 0, 39, 30
+base_colours/crewchsia/eyelids/lid_blink
+	bounds: 2681, 29, 40, 42
+	offsets: 1, 0, 42, 42
+base_colours/crewchsia/eyelids/lid_happy
+	bounds: 3091, 19, 39, 23
+	offsets: 1, 0, 41, 23
+base_colours/crewchsia/eyelids/lid_sad
+	bounds: 2405, 31, 40, 49
+	offsets: 1, 0, 42, 49
+base_colours/crewchsia/finger_L
+	bounds: 3809, 30, 19, 19
+base_colours/crewchsia/hand_L_fist
+	bounds: 3993, 24, 37, 36
+base_colours/crewchsia/hand_L_palm
+	bounds: 3950, 24, 37, 36
+base_colours/crewchsia/hand_R_fist
+	bounds: 2812, 15, 37, 35
+base_colours/crewchsia/leg_L
+	bounds: 2088, 14, 33, 43
+	offsets: 18, 14, 69, 72
+	rotate: 90
+base_colours/crewchsia/leg_R
+	bounds: 2855, 16, 34, 47
+	offsets: 18, 14, 69, 72
+	rotate: 90
+base_colours/crewchsia/mouth_flat
+	bounds: 3451, 151, 31, 11
+base_colours/crewchsia/mouth_sleep_closed
+	bounds: 2136, 31, 18, 16
+base_colours/crewchsia/mouth_sleep_open
+	bounds: 4028, 176, 52, 25
+base_colours/crewchsia/mouth_teethygrin
+	bounds: 1522, 24, 49, 22
+base_colours/crewchsia/pupil_L
+	bounds: 1852, 113, 18, 19
+	offsets: 0, 0, 19, 19
+	rotate: 90
+base_colours/crewchsia/pupil_R
+	bounds: 4071, 115, 18, 18
+base_colours/crewchsia/thumb_L
+	bounds: 2142, 124, 20, 21
+hand_pointing
+	bounds: 3141, 163, 99, 79
+	rotate: 90
+shadow
+	bounds: 3492, 146, 116, 59
+	offsets: 3, 3, 122, 64
+	rotate: 90

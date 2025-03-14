@@ -1,0 +1,170 @@
+VFX_Master.png
+	size: 4096, 724
+	filter: Linear, Linear
+	scale: 0.5
+Fire/Cinder_1
+	bounds: 580, 706, 8, 12
+Fire/Cinder_10
+	bounds: 742, 710, 5, 8
+Fire/Cinder_11
+	bounds: 1425, 712, 5, 6
+Fire/Cinder_12
+	bounds: 1573, 713, 5, 5
+Fire/Cinder_13
+	bounds: 2059, 714, 4, 4
+Fire/Cinder_14
+	bounds: 1989, 714, 4, 4
+Fire/Cinder_15
+	bounds: 1979, 714, 4, 4
+Fire/Cinder_2
+	bounds: 718, 708, 7, 10
+Fire/Cinder_3
+	bounds: 594, 707, 7, 11
+Fire/Cinder_4
+	bounds: 382, 704, 7, 14
+Fire/Cinder_5
+	bounds: 212, 710, 6, 8
+Fire/Cinder_6
+	bounds: 1562, 713, 5, 5
+Fire/Cinder_7
+	bounds: 1353, 712, 5, 6
+Fire/Cinder_8
+	bounds: 1342, 711, 5, 7
+Fire/Cinder_9
+	bounds: 731, 709, 5, 9
+Fire/Fire_Bottom
+	bounds: 1022, 667, 83, 51
+Fire/Fire_Inside_Bottom
+	bounds: 2110, 680, 52, 38
+Fire/Fire_Inside_Top_1
+	bounds: 3806, 666, 52, 46
+	rotate: 90
+Fire/Fire_Inside_Top_2
+	bounds: 1881, 666, 52, 52
+Fire/Fire_Inside_Top_3
+	bounds: 2556, 667, 52, 51
+Fire/Fire_Top_Frame_1
+	bounds: 2170, 625, 86, 93
+Fire/Fire_Top_Frame_2
+	bounds: 1142, 622, 86, 96
+Fire/Fire_Top_Frame_3
+	bounds: 6, 620, 87, 98
+Level Up Stars/Blue  Star 2
+	bounds: 2865, 636, 33, 33
+	offsets: 3, 3, 40, 39
+Level Up Stars/Blue  Star 3
+	bounds: 1939, 683, 34, 35
+	offsets: 4, 3, 42, 42
+Level Up Stars/Blue Light Particle 1
+	bounds: 2752, 697, 22, 21
+	offsets: 2, 3, 26, 27
+Level Up Stars/Blue Light Particle 2
+	bounds: 3954, 634, 37, 37
+	offsets: 3, 4, 44, 45
+Level Up Stars/Blue Light Particle 3
+	bounds: 3750, 668, 50, 50
+	offsets: 5, 6, 60, 61
+Level Up Stars/Blue Star 1
+	bounds: 3858, 639, 26, 26
+	offsets: 2, 3, 31, 31
+Level Up Stars/Blue Star 4
+	bounds: 4050, 680, 37, 38
+	offsets: 3, 3, 44, 44
+Level Up Stars/Green Light Particle 1
+	bounds: 1111, 697, 22, 21
+	offsets: 2, 3, 26, 27
+Level Up Stars/Green Light Particle 2
+	bounds: 3911, 634, 37, 37
+	offsets: 3, 4, 44, 45
+Level Up Stars/Green Light Particle 3
+	bounds: 3694, 668, 50, 50
+	offsets: 5, 6, 60, 61
+Level Up Stars/Green Star 1
+	bounds: 3997, 636, 35, 35
+	offsets: 5, 5, 45, 45
+Level Up Stars/Green Star 2
+	bounds: 4004, 677, 40, 41
+	offsets: 4, 4, 48, 49
+Level Up Stars/Green Star 3
+	bounds: 251, 686, 33, 32
+	offsets: 2, 3, 38, 38
+Level Up Stars/Green Star 4
+	bounds: 1303, 685, 33, 33
+	offsets: 2, 2, 38, 38
+Level Up Stars/White Light Particle 1
+	bounds: 99, 697, 22, 21
+	offsets: 2, 3, 26, 27
+Level Up Stars/White Light Particle 2
+	bounds: 4050, 637, 37, 37
+	offsets: 3, 4, 44, 45
+Level Up Stars/White Light Particle 3
+	bounds: 3638, 668, 50, 50
+	offsets: 5, 6, 60, 61
+Level Up Stars/White Star 1
+	bounds: 3911, 677, 41, 41
+	offsets: 5, 5, 50, 50
+Level Up Stars/White Star 2
+	bounds: 3958, 677, 41, 40
+	offsets: 3, 4, 47, 47
+	rotate: 90
+Level Up Stars/White Star 3
+	bounds: 3858, 671, 47, 47
+	offsets: 5, 5, 57, 57
+Level Up Stars/White Star 4
+	bounds: 2865, 675, 43, 43
+	offsets: 5, 5, 53, 53
+Vine Wall/vinewall
+	bounds: 2916, 344, 374, 280
+	rotate: 90
+Vine Wall/vinewall_segment1
+	bounds: 398, 513, 205, 176
+	rotate: 90
+Vine Wall/vinewall_segment2
+	bounds: 2263, 464, 218, 254
+Vine Wall/vinewall_segment3
+	bounds: 1589, 580, 286, 138
+bubble_fx/Bubble_1
+	bounds: 227, 701, 17, 17
+bubble_fx/Bubble_2
+	bounds: 2614, 692, 26, 26
+bubble_fx/Bubble_3
+	bounds: 1437, 681, 37, 37
+bubble_fx/Bubble_frame_1
+	bounds: 754, 675, 43, 43
+bubble_fx/Bubble_frame_2
+	bounds: 903, 648, 67, 70
+bubble_fx/Bubble_frame_3
+	bounds: 1234, 654, 63, 64
+geyser/SpringWaterGeyser_1
+	bounds: 3202, 410, 106, 308
+geyser/SpringWaterGeyser_2
+	bounds: 3314, 419, 108, 299
+geyser/SpringWaterGeyser_3
+	bounds: 3428, 422, 104, 296
+geyser/SpringWaterHole
+	bounds: 976, 672, 46, 39
+	offsets: 1, 0, 47, 39
+	rotate: 90
+geyser/SpringWaterSpout_1
+	bounds: 1480, 643, 76, 75
+geyser/SpringWaterSpout_2
+	bounds: 291, 644, 85, 74
+geyser/SpringWaterSpout_3
+	bounds: 2786, 644, 73, 74
+tornado/fire_tornado/fire_tornado_1
+	bounds: 6, 6, 616, 712
+tornado/fire_tornado/fire_tornado_2
+	bounds: 581, 66, 652, 691
+	rotate: 90
+tornado/fire_tornado/fire_tornado_3
+	bounds: 1151, 16, 606, 702
+tornado/fire_tornado/fire_tornado_4
+	bounds: 1757, 53, 622, 665
+tornado/fire_tornado/fire_tornado_5
+	bounds: 2384, 34, 539, 684
+tree_fall/tree_idle
+	bounds: 3538, 391, 94, 327
+tree_fall/tree_stump
+	bounds: 803, 629, 94, 89
+tree_fall/tree_trunk
+	bounds: 2487, 457, 63, 261

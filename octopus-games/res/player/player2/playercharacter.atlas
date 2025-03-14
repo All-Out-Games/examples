@@ -1,0 +1,464 @@
+playercharacter.png
+	size: 4096, 460
+	filter: Linear, Linear
+	scale: 0.5
+009SG/BanHammer_Front
+	bounds: 3019, 276, 172, 176
+009SG/Grapple Gun/grapple_gun
+	bounds: 406, 41, 81, 69
+009SG/Grapple Gun/grapple_hook
+	bounds: 3590, 36, 74, 68
+009SG/balloon_magnet
+	bounds: 167, 92, 85, 89
+009SG/baseball_bat
+	bounds: 914, 131, 59, 138
+	rotate: 90
+009SG/ddakji/1w
+	bounds: 4032, 36, 56, 55
+	offsets: 0, 0, 56, 56
+009SG/dynamite
+	bounds: 1058, 107, 97, 83
+009SG/feather_sword
+	bounds: 2531, 88, 89, 148
+009SG/flail/ball
+	bounds: 1392, 129, 67, 61
+009SG/flail/chain
+	bounds: 3930, 352, 16, 91
+	rotate: 90
+009SG/flail/handle
+	bounds: 2863, 196, 23, 93
+009SG/infinity_gauntlet
+	bounds: 252, 36, 66, 50
+009SG/plunger_held
+	bounds: 2688, 40, 64, 79
+	rotate: 90
+009SG/tranq gun
+	bounds: 3485, 62, 99, 59
+100_buttons/vfx/blue_button
+	bounds: 811, 96, 97, 94
+100_buttons/vfx/electrocute/electricity_sparks1
+	bounds: 3176, 38, 62, 79
+	rotate: 90
+100_buttons/vfx/electrocute/electricity_sparks2
+	bounds: 2552, 47, 63, 35
+100_buttons/vfx/electrocute/electricity_sparks3
+	bounds: 2085, 42, 74, 46
+100_buttons/vfx/electrocute/electrocute_aura1
+	bounds: 2662, 237, 195, 215
+	offsets: 1, 1, 197, 217
+100_buttons/vfx/electrocute/electrocute_aura2
+	bounds: 2447, 242, 210, 209
+	offsets: 1, 1, 212, 211
+	rotate: 90
+100_buttons/vfx/feathers1
+	bounds: 258, 94, 29, 31
+100_buttons/vfx/feathers2
+	bounds: 3999, 51, 25, 35
+100_buttons/vfx/feathers3
+	bounds: 6, 13, 40, 27
+100_buttons/vfx/red_button
+	bounds: 708, 96, 97, 94
+100_buttons/vfx/smoke_particle
+	bounds: 1803, 40, 47, 46
+	offsets: 1, 1, 49, 49
+100_buttons/vfx/smoke_particle2
+	bounds: 2994, 20, 40, 36
+	offsets: 1, 2, 42, 39
+100_buttons/vfx/smoke_particle3
+	bounds: 3999, 14, 27, 31
+	offsets: 1, 1, 31, 33
+100_buttons/vfx/weapon_swings/swipe333
+	bounds: 2863, 141, 150, 311
+100_buttons/vfx/yellow_button
+	bounds: 605, 96, 97, 94
+100_buttons/weapons/balloon_sword
+	bounds: 1470, 128, 63, 154
+	rotate: 90
+100_buttons/weapons/beam_sabre
+	bounds: 96, 63, 23, 150
+	offsets: 0, 0, 24, 150
+	rotate: 90
+100_buttons/weapons/beehive_launcher
+	bounds: 3664, 263, 189, 122
+	rotate: 90
+100_buttons/weapons/cactus_sword
+	bounds: 2140, 94, 89, 150
+100_buttons/weapons/chicken
+	bounds: 3930, 374, 78, 156
+	rotate: 90
+100_buttons/weapons/disco_ball_shooter
+	bounds: 3792, 301, 151, 132
+	rotate: 90
+100_buttons/weapons/finger_gun
+	bounds: 1934, 38, 45, 43
+100_buttons/weapons/foam_hand
+	bounds: 2946, 62, 79, 95
+	rotate: 90
+100_buttons/weapons/gun
+	bounds: 1251, 31, 72, 65
+2.0.1_additions/eyes/crying/lid_watery_L
+	bounds: 2165, 39, 62, 49
+2.0.1_additions/eyes/crying/lid_watery_R
+	bounds: 3047, 43, 69, 34
+2.0.1_additions/eyes/crying/lighteye_watery_L
+	bounds: 324, 43, 62, 40
+2.0.1_additions/eyes/crying/lighteye_watery_R
+	bounds: 324, 43, 62, 40
+2.0.1_additions/eyes/crying/tear_watery_L
+	bounds: 2552, 12, 41, 29
+2.0.1_additions/eyes/crying/tear_watery_R
+	bounds: 52, 13, 33, 27
+2.0.1_additions/eyes/lid_rage_L
+	bounds: 3839, 57, 82, 81
+2.0.1_additions/eyes/lid_rage_R
+	bounds: 3398, 44, 80, 81
+	rotate: 90
+2.0.1_additions/mouths/mouth_cheesy_grin
+	bounds: 1996, 98, 119, 65
+2.0.1_additions/mouths/mouth_closed_teeth_pain
+	bounds: 964, 32, 64, 28
+2.0.1_additions/mouths/mouth_concentration
+	bounds: 797, 54, 95, 36
+2.0.1_additions/mouths/mouth_grimace
+	bounds: 493, 51, 102, 40
+2.0.1_additions/mouths/mouth_open_scream1
+	bounds: 898, 30, 60, 30
+2.0.1_additions/mouths/mouth_open_scream2
+	bounds: 1646, 43, 54, 38
+2.0.1_additions/mouths/mouth_rage
+	bounds: 3266, 62, 126, 46
+2.0.1_additions/mouths/mouth_slack_jawed
+	bounds: 717, 36, 74, 54
+2.0.1_additions/mouths/mouth_smug
+	bounds: 601, 53, 110, 37
+	offsets: 0, 1, 110, 38
+2.0.1_additions/mouths/mouth_starstruck
+	bounds: 1472, 54, 92, 68
+2.0.1_additions/mouths/punched_mouth
+	bounds: 3047, 83, 123, 58
+2.0.1_additions/puffy_cheek
+	bounds: 2407, 30, 68, 69
+	rotate: 90
+2.0.1_additions/revolver spin
+	bounds: 1329, 46, 51, 47
+EMOTE_VFX/golden_aura/aura_1
+	bounds: 1703, 197, 227, 255
+EMOTE_VFX/golden_aura/aura_2
+	bounds: 748, 196, 236, 256
+EMOTE_VFX/golden_aura/aura_3
+	bounds: 1230, 196, 234, 256
+EMOTE_VFX/golden_aura/shock_A
+	bounds: 1862, 38, 66, 51
+	offsets: 1, 1, 68, 53
+EMOTE_VFX/golden_aura/shock_B
+	bounds: 3769, 29, 44, 43
+	offsets: 1, 1, 46, 45
+EMOTE_VFX/golden_aura/shock_C
+	bounds: 3927, 38, 66, 48
+	offsets: 1, 1, 68, 50
+EMOTE_VFX/golden_aura/shock_D
+	bounds: 2482, 44, 64, 38
+	offsets: 1, 1, 66, 40
+EMOTE_VFX/golden_aura/shock_E
+	bounds: 1987, 42, 92, 50
+	offsets: 1, 1, 94, 52
+EMOTE_VFX/golden_aura/shock_F
+	bounds: 2937, 24, 51, 32
+	offsets: 1, 1, 53, 34
+EMOTE_VFX/poop/poop_fall
+	bounds: 3359, 276, 153, 176
+EMOTE_VFX/poop/poop_land
+	bounds: 3197, 277, 175, 156
+	rotate: 90
+EMOTE_VFX/poop/poop_particle1
+	bounds: 3716, 31, 47, 41
+EMOTE_VFX/poop/poop_particle2
+	bounds: 6, 46, 84, 69
+EMOTE_VFX/poop/poop_particle3
+	bounds: 2845, 63, 94, 73
+EMOTE_VFX/teleport/back shadow
+	bounds: 3019, 147, 123, 123
+	offsets: 13, 12, 150, 148
+EMOTE_VFX/teleport/kanji1
+	bounds: 4061, 202, 29, 41
+EMOTE_VFX/teleport/kanji2
+	bounds: 1191, 40, 43, 53
+EMOTE_VFX/teleport/teleport cloud1
+	bounds: 3740, 148, 43, 58
+EMOTE_VFX/teleport/teleport cloud2
+	bounds: 130, 92, 31, 31
+	offsets: 1, 1, 33, 33
+EMOTE_VFX/teleport/teleport cloud3
+	bounds: 1936, 200, 38, 50
+EMOTE_VFX/teleport/teleport cloud4
+	bounds: 2773, 44, 62, 55
+	offsets: 0, 1, 63, 57
+EMOTE_VFX/ultra_instinct_aura/aura_1
+	bounds: 1470, 197, 227, 255
+EMOTE_VFX/ultra_instinct_aura/aura_2
+	bounds: 506, 196, 236, 256
+EMOTE_VFX/ultra_instinct_aura/aura_3
+	bounds: 990, 196, 234, 256
+base_colours/crewchsia/body_base
+	bounds: 1161, 98, 92, 111
+	offsets: 42, 31, 179, 180
+	rotate: 90
+base_colours/crewchsia/eyeball_L
+	bounds: 2889, 17, 40, 42
+	offsets: 1, 0, 42, 42
+	rotate: 90
+base_colours/crewchsia/eyeball_R
+	bounds: 190, 16, 41, 41
+base_colours/crewchsia/eyelids/lid_angry
+	bounds: 3670, 18, 38, 30
+	offsets: 0, 0, 39, 30
+base_colours/crewchsia/eyelids/lid_blink
+	bounds: 2841, 17, 40, 42
+	offsets: 1, 0, 42, 42
+	rotate: 90
+base_colours/crewchsia/eyelids/lid_happy
+	bounds: 1373, 14, 39, 23
+	offsets: 1, 0, 41, 23
+base_colours/crewchsia/eyelids/lid_sad
+	bounds: 3670, 54, 40, 49
+	offsets: 1, 0, 42, 49
+base_colours/crewchsia/finger_L
+	bounds: 1936, 260, 19, 19
+base_colours/crewchsia/hand_L_fist
+	bounds: 3354, 20, 37, 36
+base_colours/crewchsia/hand_L_palm
+	bounds: 3311, 20, 37, 36
+base_colours/crewchsia/hand_R_fist
+	bounds: 797, 13, 37, 35
+base_colours/crewchsia/leg_L
+	bounds: 540, 12, 33, 43
+	offsets: 18, 14, 69, 72
+	rotate: 90
+base_colours/crewchsia/leg_R
+	bounds: 840, 14, 34, 47
+	offsets: 18, 14, 69, 72
+	rotate: 90
+base_colours/crewchsia/mouth_flat
+	bounds: 2124, 441, 31, 11
+base_colours/crewchsia/mouth_sleep_closed
+	bounds: 3926, 213, 18, 16
+base_colours/crewchsia/mouth_sleep_open
+	bounds: 3819, 26, 52, 25
+base_colours/crewchsia/mouth_teethygrin
+	bounds: 2482, 16, 49, 22
+base_colours/crewchsia/pupil_L
+	bounds: 6, 383, 18, 19
+	offsets: 0, 0, 19, 19
+base_colours/crewchsia/pupil_R
+	bounds: 3619, 260, 18, 18
+base_colours/crewchsia/thumb_L
+	bounds: 245, 431, 20, 21
+base_colours/jake/Body3
+	bounds: 2626, 48, 54, 54
+base_colours/jake/Leg L2
+	bounds: 2384, 436, 13, 16
+	offsets: 15, 0, 54, 54
+base_colours/jake/Leg R2
+	bounds: 228, 437, 10, 15
+	offsets: 32, 0, 54, 54
+base_colours/jake/eyeball_L2
+	bounds: 1936, 426, 26, 26
+	offsets: 1, 0, 27, 27
+base_colours/jake/eyeball_R2
+	bounds: 2985, 427, 25, 25
+	offsets: 1, 0, 26, 26
+base_colours/jake/finger_L
+	bounds: 2408, 237, 34, 34
+	offsets: 0, 0, 35, 34
+base_colours/jake/hand_L_fist
+	bounds: 1113, 31, 72, 68
+base_colours/jake/hand_L_palm
+	bounds: 1036, 32, 71, 69
+base_colours/jake/hand_R_fist
+	bounds: 1570, 31, 70, 67
+base_colours/jake/pupil_L2
+	bounds: 3431, 253, 17, 17
+base_colours/jake/pupil_R2
+	bounds: 3148, 253, 17, 17
+base_colours/jake/thumb_L
+	bounds: 3485, 17, 36, 39
+hand_pointing
+	bounds: 3927, 92, 99, 79
+player_skins/009SG_Green_Outfit/leg_L
+	bounds: 3527, 19, 37, 45
+	offsets: 16, 13, 69, 71
+	rotate: 90
+player_skins/009SG_Green_Outfit/leg_R
+	bounds: 3420, 132, 36, 44
+	offsets: 18, 16, 69, 71
+player_skins/009SG_Green_Outfit/top
+	bounds: 1877, 86, 108, 113
+	offsets: 36, 24, 179, 179
+	rotate: 90
+player_skins/009SG_Mask/mask
+	bounds: 2235, 81, 83, 91
+	rotate: 90
+player_skins/009SG_front_man/head
+	bounds: 2626, 106, 118, 125
+	offsets: 29, 30, 179, 179
+player_skins/009SG_front_man/head_back
+	bounds: 1630, 86, 105, 118
+	offsets: 41, 30, 179, 179
+	rotate: 90
+player_skins/009SG_front_man/leg_L
+	bounds: 645, 13, 34, 43
+	offsets: 18, 14, 69, 71
+	rotate: 90
+player_skins/009SG_front_man/leg_R
+	bounds: 2852, 144, 37, 46
+	offsets: 17, 15, 69, 71
+player_skins/009SG_front_man/mask
+	bounds: 1386, 43, 80, 79
+player_skins/009SG_front_man/top
+	bounds: 1750, 90, 101, 115
+	offsets: 39, 26, 179, 179
+	rotate: 90
+player_skins/Banana_Guy/images/top
+	bounds: 3929, 176, 161, 171
+	offsets: 15, 8, 179, 179
+player_skins/Burger_Guy/images/top
+	bounds: 2380, 103, 147, 133
+	offsets: 15, 25, 179, 179
+player_skins/Cake_100_buttons/cake
+	bounds: 3592, 108, 144, 149
+	offsets: 19, 30, 179, 179
+player_skins/Day_1/body_base
+	bounds: 6, 116, 280, 336
+	offsets: 60, 99, 435, 435
+player_skins/Golden Poop Skin/body_base
+	bounds: 2187, 167, 255, 285
+	offsets: 51, 58, 357, 357
+player_skins/Hot_Dog_Guy/images/top
+	bounds: 3297, 113, 147, 157
+	offsets: 17, 15, 179, 179
+player_skins/Pizza_Guy/images/top
+	bounds: 3153, 104, 140, 167
+	offsets: 32, 12, 179, 179
+player_skins/Poop Skin/body_base
+	bounds: 1936, 167, 255, 285
+	offsets: 51, 58, 357, 357
+player_skins/Poop Skin/leg_L
+	bounds: 2332, 44, 73, 86
+	offsets: 33, 27, 136, 141
+player_skins/Poop Skin/leg_R
+	bounds: 1714, 25, 69, 83
+	offsets: 38, 32, 136, 141
+	rotate: 90
+player_skins/Thermal_Skin/body_base
+	bounds: 1276, 98, 92, 112
+	offsets: 42, 30, 179, 179
+	rotate: 90
+player_skins/Thermal_Skin/eyeball_L
+	bounds: 143, 16, 41, 41
+player_skins/Thermal_Skin/eyeball_R
+	bounds: 96, 16, 41, 41
+player_skins/Thermal_Skin/eyelids/lid_angry
+	bounds: 1329, 11, 38, 29
+player_skins/Thermal_Skin/eyelids/lid_blink
+	bounds: 3742, 216, 41, 41
+player_skins/Thermal_Skin/eyelids/lid_happy
+	bounds: 2773, 15, 40, 23
+player_skins/Thermal_Skin/eyelids/lid_sad
+	bounds: 3122, 30, 41, 47
+	offsets: 0, 1, 41, 48
+player_skins/Thermal_Skin/finger_L
+	bounds: 286, 381, 19, 19
+player_skins/Thermal_Skin/hand_L_fist
+	bounds: 3877, 16, 37, 35
+player_skins/Thermal_Skin/hand_L_palm
+	bounds: 1514, 13, 36, 35
+player_skins/Thermal_Skin/hand_R_fist
+	bounds: 1472, 13, 36, 35
+player_skins/Thermal_Skin/leg_L
+	bounds: 2305, 12, 32, 43
+	offsets: 18, 14, 69, 71
+	rotate: 90
+player_skins/Thermal_Skin/leg_R
+	bounds: 594, 13, 34, 46
+	offsets: 18, 14, 69, 71
+	rotate: 90
+player_skins/Thermal_Skin/mouth_flat
+	bounds: 4027, 357, 30, 11
+player_skins/Thermal_Skin/mouth_sleep_closed
+	bounds: 2733, 216, 18, 15
+player_skins/Thermal_Skin/mouth_sleep_open
+	bounds: 2621, 18, 51, 24
+player_skins/Thermal_Skin/mouth_teethygrin
+	bounds: 3397, 16, 48, 22
+player_skins/Thermal_Skin/pupil_L
+	bounds: 3595, 260, 18, 18
+player_skins/Thermal_Skin/pupil_R
+	bounds: 4069, 350, 18, 18
+player_skins/Thermal_Skin/shadow
+	bounds: 3717, 78, 116, 60
+	offsets: 3, 2, 122, 64
+player_skins/Thermal_Skin/thumb_L
+	bounds: 2406, 432, 19, 20
+	offsets: 0, 1, 19, 21
+player_skins/alien/antenna
+	bounds: 2233, 42, 67, 33
+player_skins/alien/body
+	bounds: 2747, 103, 104, 128
+	offsets: 38, 28, 179, 179
+player_skins/alien/ear_L
+	bounds: 2863, 426, 22, 26
+player_skins/alien/ear_R
+	bounds: 3295, 246, 22, 25
+player_skins/alien/leg_L
+	bounds: 2337, 134, 37, 43
+	offsets: 16, 14, 69, 71
+	rotate: 90
+player_skins/alien/leg_R
+	bounds: 6, 406, 37, 46
+	offsets: 18, 14, 69, 71
+player_skins/chicken suit/Leg_L
+	bounds: 2164, 251, 33, 46
+	offsets: 18, 11, 69, 71
+	rotate: 90
+player_skins/chicken suit/Leg_R
+	bounds: 490, 11, 34, 46
+	offsets: 18, 14, 69, 71
+	rotate: 90
+player_skins/chicken suit/skin_top
+	bounds: 258, 87, 243, 365
+	offsets: 88, 99, 464, 464
+player_skins/chicken suit/tail
+	bounds: 4032, 97, 55, 74
+player_skins/garryblox/leg_L
+	bounds: 2175, 407, 35, 45
+	offsets: 18, 11, 68, 71
+player_skins/garryblox/leg_R
+	bounds: 2356, 6, 34, 46
+	offsets: 20, 11, 68, 71
+	rotate: 90
+player_skins/garryblox/skin_top
+	bounds: 3454, 126, 138, 152
+	offsets: 0, 27, 179, 179
+player_skins/henwy/skin_top
+	bounds: 3789, 143, 138, 152
+	offsets: 0, 27, 179, 179
+player_skins/potato/body
+	bounds: 477, 96, 94, 123
+	offsets: 43, 26, 179, 179
+	rotate: 90
+player_skins/potato/leg_L
+	bounds: 3261, 20, 36, 45
+	offsets: 17, 12, 69, 71
+	rotate: 90
+player_skins/potato/leg_R
+	bounds: 278, 404, 41, 48
+	offsets: 17, 13, 69, 71
+player_skins/potato/mouth_potato
+	bounds: 478, 442, 16, 10
+revolver
+	bounds: 3518, 284, 168, 140
+	offsets: 0, 0, 168, 141
+	rotate: 90
+shadow
+	bounds: 914, 66, 116, 59
+	offsets: 3, 3, 122, 64

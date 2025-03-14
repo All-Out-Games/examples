@@ -1,0 +1,15 @@
+reflective_shield.png
+	size: 960, 960
+	filter: Linear, Linear
+images/reflective_shield/shield0000
+	bounds: 6, 644, 310, 312
+	offsets: 4, 5, 318, 322
+	rotate: 90
+images/reflective_shield/shield0001
+	bounds: 324, 644, 310, 312
+	offsets: 4, 5, 318, 322
+	rotate: 90
+images/reflective_shield/shield0002
+	bounds: 642, 644, 310, 312
+	offsets: 4, 5, 318, 322
+	rotate: 90

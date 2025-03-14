@@ -1,0 +1,33 @@
+AO_Lightning_Bolt.png
+	size: 360, 160
+	filter: Linear, Linear
+	scale: 0.5
+_lightning_bolt_A
+	bounds: 193, 11, 143, 58
+	offsets: 2, 2, 147, 62
+	rotate: 90
+_lightning_bolt_B
+	bounds: 4, 4, 144, 63
+	offsets: 3, 3, 150, 68
+lightning_bolt_glow
+	bounds: 4, 71, 185, 83
+	offsets: 5, 1, 193, 85
+particle_A
+	bounds: 255, 92, 62, 54
+	offsets: 4, 3, 69, 60
+	rotate: 90
+particle_E
+	bounds: 313, 92, 51, 40
+	offsets: 3, 7, 60, 50
+	rotate: 90
+particle_G
+	bounds: 310, 36, 52, 46
+	offsets: 4, 4, 60, 54
+	rotate: 90
+particle_I
+	bounds: 255, 27, 61, 51
+	offsets: 4, 3, 69, 57
+	rotate: 90
+particle_J
+	bounds: 152, 27, 31, 40
+	offsets: 3, 4, 37, 48

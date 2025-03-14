@@ -1,0 +1,176 @@
+009SG_golem.png
+	size: 3832, 376
+	filter: Linear, Linear
+Layer 236
+	bounds: 1742, 18, 256, 88
+	offsets: 1, 1, 258, 90
+arm L
+	bounds: 2852, 29, 105, 322
+	offsets: 1, 0, 107, 322
+	rotate: 90
+arm R
+	bounds: 940, 8, 101, 290
+	offsets: 1, 1, 103, 291
+	rotate: 90
+arm raised L
+	bounds: 2031, 43, 105, 322
+	offsets: 1, 0, 107, 322
+	rotate: 90
+arm raised R
+	bounds: 2356, 13, 101, 290
+	offsets: 1, 1, 103, 291
+	rotate: 90
+body
+	bounds: 2251, 151, 217, 220
+	offsets: 1, 1, 219, 237
+debris/particle_01
+	bounds: 892, 25, 36, 46
+	offsets: 1, 1, 38, 47
+debris/particle_02
+	bounds: 2129, 6, 27, 34
+	offsets: 1, 1, 29, 36
+debris/particle_03
+	bounds: 2099, 6, 27, 34
+	offsets: 1, 1, 29, 36
+debris/particle_04
+	bounds: 2159, 15, 25, 25
+	offsets: 1, 1, 27, 27
+debris/particle_05
+	bounds: 679, 5, 33, 32
+	offsets: 1, 1, 35, 34
+debris/particle_06
+	bounds: 2065, 9, 31, 31
+	offsets: 1, 1, 33, 33
+debris/particle_07
+	bounds: 2033, 3, 29, 37
+	offsets: 1, 1, 31, 38
+debris/particle_08
+	bounds: 2187, 15, 20, 25
+	offsets: 1, 1, 22, 27
+debris/particle_09
+	bounds: 3770, 320, 31, 39
+	offsets: 1, 1, 33, 40
+debris/particle_10
+	bounds: 2001, 3, 29, 37
+	offsets: 1, 1, 31, 38
+debris/particle_11
+	bounds: 3736, 320, 31, 39
+	offsets: 1, 1, 33, 40
+debris/particle_12
+	bounds: 3564, 39, 45, 44
+	offsets: 1, 1, 47, 46
+head
+	bounds: 3515, 86, 124, 141
+	offsets: 1, 1, 126, 176
+leg L
+	bounds: 3642, 206, 91, 165
+	offsets: 1, 1, 93, 166
+leg R
+	bounds: 3733, 44, 88, 159
+	offsets: 1, 1, 90, 161
+poof/Poof_0001
+	bounds: 1634, 135, 206, 236
+	offsets: 1, 2, 208, 238
+poof/Poof_0002
+	bounds: 1417, 135, 214, 236
+	offsets: 1, 2, 216, 238
+poof/Poof_0003
+	bounds: 1194, 118, 220, 253
+	offsets: 1, 1, 222, 256
+poof/Poof_0004
+	bounds: 717, 74, 220, 297
+	offsets: 1, 1, 222, 299
+poof/Poof_0005
+	bounds: 491, 40, 223, 331
+	offsets: 2, 1, 226, 333
+poof/Poof_0006
+	bounds: 249, 23, 239, 348
+	offsets: 1, 1, 241, 350
+poof/Poof_0007
+	bounds: 3, 21, 243, 350
+	offsets: 1, 1, 246, 351
+poof/Poof_0008
+	bounds: 940, 112, 251, 259
+	offsets: 1, 1, 254, 261
+poof/Poof_0009
+	bounds: 1843, 109, 185, 262
+	offsets: 1, 1, 187, 264
+poof/Poof_0010
+	bounds: 3043, 144, 187, 227
+	offsets: 1, 1, 189, 229
+poof/Poof_0011
+	bounds: 2471, 117, 187, 254
+	offsets: 1, 1, 189, 256
+poof/Poof_0012
+	bounds: 2852, 137, 188, 234
+	offsets: 1, 1, 190, 236
+poof/Poof_0013
+	bounds: 2661, 127, 188, 244
+	offsets: 1, 1, 190, 245
+poof/Poof_0014
+	bounds: 3233, 128, 163, 243
+	offsets: 1, 1, 165, 245
+poof/Poof_0015
+	bounds: 2649, 9, 105, 196
+	offsets: 1, 1, 107, 198
+	rotate: 90
+poof/Poof_0016
+	bounds: 3399, 128, 113, 217
+	offsets: 1, 1, 115, 219
+poof/Poof_0017
+	bounds: 3736, 206, 91, 111
+	offsets: 1, 1, 93, 113
+poof/Poof_0018
+	bounds: 816, 4, 73, 67
+	offsets: 1, 1, 75, 69
+poof/Poof_0019
+	bounds: 3470, 3, 80, 91
+	offsets: 1, 1, 82, 92
+	rotate: 90
+poof/Poof_0020
+	bounds: 3470, 3, 80, 91
+	offsets: 1, 1, 82, 92
+	rotate: 90
+poof/Poof_0021
+	bounds: 3470, 3, 80, 91
+	offsets: 1, 1, 82, 92
+	rotate: 90
+poof/Poof_0022
+	bounds: 717, 5, 96, 66
+	offsets: 1, 1, 98, 68
+poof/Poof_0023
+	bounds: 491, 6, 61, 31
+	offsets: 1, 1, 63, 33
+poof/Poof_0024
+	bounds: 491, 6, 61, 31
+	offsets: 1, 1, 63, 33
+poof/Poof_0025
+	bounds: 3, 4, 14, 14
+	offsets: 1, 1, 16, 16
+red eyes
+	bounds: 617, 16, 59, 21
+	offsets: 1, 1, 61, 23
+white/arm L
+	bounds: 1417, 27, 105, 322
+	offsets: 1, 0, 107, 322
+	rotate: 90
+white/arm R
+	bounds: 3177, 24, 101, 290
+	offsets: 1, 1, 103, 291
+	rotate: 90
+white/body
+	bounds: 2031, 151, 217, 220
+	offsets: 1, 1, 219, 237
+white/head
+	bounds: 3515, 230, 124, 141
+	offsets: 1, 1, 126, 176
+white/leg L
+	bounds: 1233, 24, 91, 165
+	offsets: 1, 1, 93, 166
+	rotate: 90
+white/leg R
+	bounds: 3642, 44, 88, 159
+	offsets: 1, 1, 90, 161
+white/red eyes
+	bounds: 555, 16, 59, 21
+	offsets: 1, 1, 61, 23

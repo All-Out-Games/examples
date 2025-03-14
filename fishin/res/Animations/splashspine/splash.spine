@@ -1,0 +1,936 @@
+{
+"skeleton": { "hash": "x1DHMShP3ZE", "spine": "4.0.64" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "SPLASH", "parent": "root" },
+	{ "name": "WaterSplash", "parent": "SPLASH", "x": 0.5, "y": 0.5 },
+	{ "name": "droplets", "parent": "SPLASH", "x": 4.35, "y": -47.81 },
+	{ "name": "WaterParticle_A", "parent": "droplets", "rotation": -24.4, "x": -50.07, "y": 97.52, "transform": "noScale" },
+	{ "name": "WaterParticle_B", "parent": "droplets", "rotation": 26.21, "x": 83.43, "y": 92.32, "transform": "noScale" },
+	{ "name": "WaterParticle_C", "parent": "droplets", "x": -86.06, "y": -9.39, "transform": "noScale" },
+	{ "name": "WaterParticle_D", "parent": "droplets", "x": 92.32, "y": -3.13, "transform": "noScale" },
+	{ "name": "droplets2", "parent": "SPLASH", "rotation": -26.49, "x": 48.67, "y": 15.65, "scaleX": -1 },
+	{ "name": "WaterParticle_A2", "parent": "droplets2", "rotation": -24.4, "x": -50.07, "y": 97.52, "transform": "noScale" },
+	{ "name": "WaterParticle_B2", "parent": "droplets2", "rotation": 26.21, "x": 83.43, "y": 92.32, "transform": "noScale" },
+	{ "name": "WaterParticle_C2", "parent": "droplets2", "x": -86.06, "y": -9.39, "transform": "noScale" },
+	{ "name": "WaterParticle_D2", "parent": "droplets2", "x": 92.32, "y": -3.13, "transform": "noScale" },
+	{ "name": "droplets3", "parent": "SPLASH", "rotation": 45.25, "x": -49.51, "y": 24.1, "scaleX": -1 },
+	{ "name": "WaterParticle_A3", "parent": "droplets3", "rotation": -24.4, "x": -50.07, "y": 97.52, "transform": "noScale" },
+	{ "name": "WaterParticle_B3", "parent": "droplets3", "rotation": 26.21, "x": 83.43, "y": 92.32, "transform": "noScale" },
+	{ "name": "WaterParticle_C3", "parent": "droplets3", "x": -86.06, "y": -9.39, "transform": "noScale" },
+	{ "name": "WaterParticle_D3", "parent": "droplets3", "x": 92.32, "y": -3.13, "transform": "noScale" }
+],
+"slots": [
+	{ "name": "WaterSplash_1", "bone": "WaterSplash" },
+	{ "name": "WaterSplash_2", "bone": "WaterSplash" },
+	{ "name": "WaterSplash_3R", "bone": "WaterSplash" },
+	{ "name": "WaterSplash_3L", "bone": "WaterSplash" },
+	{ "name": "WaterSplash_4R", "bone": "WaterSplash" },
+	{ "name": "WaterSplash_4L", "bone": "WaterSplash" },
+	{ "name": "WaterParticle_A", "bone": "WaterParticle_A" },
+	{ "name": "WaterParticle_A2", "bone": "WaterParticle_A2" },
+	{ "name": "WaterParticle_A3", "bone": "WaterParticle_A3" },
+	{ "name": "WaterParticle_B", "bone": "WaterParticle_B" },
+	{ "name": "WaterParticle_B2", "bone": "WaterParticle_B2" },
+	{ "name": "WaterParticle_B3", "bone": "WaterParticle_B3" },
+	{ "name": "WaterParticle_C", "bone": "WaterParticle_C" },
+	{ "name": "WaterParticle_C2", "bone": "WaterParticle_C2" },
+	{ "name": "WaterParticle_C3", "bone": "WaterParticle_C3" },
+	{ "name": "WaterParticle_D", "bone": "WaterParticle_D" },
+	{ "name": "WaterParticle_D2", "bone": "WaterParticle_D2" },
+	{ "name": "WaterParticle_D3", "bone": "WaterParticle_D3" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"WaterParticle_A": {
+				"Images/splash/WaterParticle_A": { "width": 102, "height": 117 }
+			},
+			"WaterParticle_A2": {
+				"Images/splash/WaterParticle_A": { "width": 102, "height": 117 }
+			},
+			"WaterParticle_A3": {
+				"Images/splash/WaterParticle_A": { "width": 102, "height": 117 }
+			},
+			"WaterParticle_B": {
+				"Images/splash/WaterParticle_B": { "width": 53, "height": 64 }
+			},
+			"WaterParticle_B2": {
+				"Images/splash/WaterParticle_B": { "width": 53, "height": 64 }
+			},
+			"WaterParticle_B3": {
+				"Images/splash/WaterParticle_B": { "width": 53, "height": 64 }
+			},
+			"WaterParticle_C": {
+				"Images/splash/WaterParticle_C": { "width": 32, "height": 44 }
+			},
+			"WaterParticle_C2": {
+				"Images/splash/WaterParticle_C": { "width": 32, "height": 44 }
+			},
+			"WaterParticle_C3": {
+				"Images/splash/WaterParticle_C": { "width": 32, "height": 44 }
+			},
+			"WaterParticle_D": {
+				"Images/splash/WaterParticle_D": { "width": 28, "height": 30 }
+			},
+			"WaterParticle_D2": {
+				"Images/splash/WaterParticle_D": { "width": 28, "height": 30 }
+			},
+			"WaterParticle_D3": {
+				"Images/splash/WaterParticle_D": { "width": 28, "height": 30 }
+			},
+			"WaterSplash_1": {
+				"Images/splash/WaterSplash_D": { "x": 4.5, "y": 88.5, "width": 160, "height": 190 }
+			},
+			"WaterSplash_2": {
+				"Images/splash/WaterSplash_A": { "x": 4, "y": 62, "width": 315, "height": 145 }
+			},
+			"WaterSplash_3L": {
+				"Images/splash/WaterSplash_B": { "x": -80, "y": 120, "width": 322, "height": 246 }
+			},
+			"WaterSplash_3R": {
+				"Images/splash/WaterSplash_F": { "x": 25.5, "y": 137, "width": 312, "height": 291 }
+			},
+			"WaterSplash_4L": {
+				"Images/splash/WaterSplash_E": { "x": -137.03, "y": 113.5, "width": 226, "height": 246 }
+			},
+			"WaterSplash_4R": {
+				"Images/splash/WaterSplash_C": { "x": 127.98, "y": 162.5, "width": 195, "height": 345 }
+			}
+		}
+	}
+],
+"animations": {
+	"splash": {
+		"slots": {
+			"WaterParticle_A": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.05, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.1833, "color": "ffffffff" },
+					{ "time": 0.4167, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "Images/splash/WaterParticle_A" },
+					{ "time": 0.4167, "name": "Images/splash/WaterParticle_A" }
+				]
+			},
+			"WaterParticle_A2": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.05, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.1833, "color": "ffffffff" },
+					{ "time": 0.4167, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "Images/splash/WaterParticle_A" },
+					{ "time": 0.4167, "name": "Images/splash/WaterParticle_A" }
+				]
+			},
+			"WaterParticle_A3": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.05, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.1833, "color": "ffffffff" },
+					{ "time": 0.4167, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "Images/splash/WaterParticle_A" },
+					{ "time": 0.4167, "name": "Images/splash/WaterParticle_A" }
+				]
+			},
+			"WaterParticle_B": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.05, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.1833, "color": "ffffffff" },
+					{ "time": 0.4167, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "Images/splash/WaterParticle_B" },
+					{ "time": 0.4167, "name": "Images/splash/WaterParticle_B" }
+				]
+			},
+			"WaterParticle_B2": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.05, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.1833, "color": "ffffffff" },
+					{ "time": 0.4167, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "Images/splash/WaterParticle_B" },
+					{ "time": 0.4167, "name": "Images/splash/WaterParticle_B" }
+				]
+			},
+			"WaterParticle_B3": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.05, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.1833, "color": "ffffffff" },
+					{ "time": 0.4167, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "Images/splash/WaterParticle_B" },
+					{ "time": 0.4167, "name": "Images/splash/WaterParticle_B" }
+				]
+			},
+			"WaterParticle_C": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.05, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.1833, "color": "ffffffff" },
+					{ "time": 0.4167, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "Images/splash/WaterParticle_C" },
+					{ "time": 0.4167, "name": "Images/splash/WaterParticle_C" }
+				]
+			},
+			"WaterParticle_C2": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.05, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.1833, "color": "ffffffff" },
+					{ "time": 0.4167, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "Images/splash/WaterParticle_C" },
+					{ "time": 0.4167, "name": "Images/splash/WaterParticle_C" }
+				]
+			},
+			"WaterParticle_C3": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.05, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.1833, "color": "ffffffff" },
+					{ "time": 0.4167, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "Images/splash/WaterParticle_C" },
+					{ "time": 0.4167, "name": "Images/splash/WaterParticle_C" }
+				]
+			},
+			"WaterParticle_D": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.05, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.1833, "color": "ffffffff" },
+					{ "time": 0.4167, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "Images/splash/WaterParticle_D" },
+					{ "time": 0.4167, "name": "Images/splash/WaterParticle_D" }
+				]
+			},
+			"WaterParticle_D2": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.05, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.1833, "color": "ffffffff" },
+					{ "time": 0.4167, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "Images/splash/WaterParticle_D" },
+					{ "time": 0.4167, "name": "Images/splash/WaterParticle_D" }
+				]
+			},
+			"WaterParticle_D3": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.05, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.1833, "color": "ffffffff" },
+					{ "time": 0.4167, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "Images/splash/WaterParticle_D" },
+					{ "time": 0.4167, "name": "Images/splash/WaterParticle_D" }
+				]
+			},
+			"WaterSplash_1": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.05, "color": "ffffffff", "curve": "stepped" },
+					{
+						"time": 0.25,
+						"color": "ffffffff",
+						"curve": [ 0.294, 1, 0.339, 1, 0.294, 1, 0.339, 1, 0.294, 1, 0.339, 1, 0.294, 0.33, 0.339, 0 ]
+					},
+					{ "time": 0.3833, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "Images/splash/WaterSplash_D" },
+					{ "time": 0.1667, "name": null },
+					{ "time": 0.2833, "name": "Images/splash/WaterSplash_D" }
+				]
+			},
+			"WaterSplash_2": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.05, "color": "ffffffff", "curve": "stepped" },
+					{
+						"time": 0.25,
+						"color": "ffffffff",
+						"curve": [ 0.294, 1, 0.339, 1, 0.294, 1, 0.339, 1, 0.294, 1, 0.339, 1, 0.294, 0.33, 0.339, 0 ]
+					},
+					{ "time": 0.3833, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.1, "name": "Images/splash/WaterSplash_A" }
+				]
+			},
+			"WaterSplash_3L": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.05, "color": "ffffffff", "curve": "stepped" },
+					{
+						"time": 0.25,
+						"color": "ffffffff",
+						"curve": [ 0.294, 1, 0.339, 1, 0.294, 1, 0.339, 1, 0.294, 1, 0.339, 1, 0.294, 0.33, 0.339, 0 ]
+					},
+					{ "time": 0.3833, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.1, "name": "Images/splash/WaterSplash_B" },
+					{ "time": 0.1667, "name": null },
+					{ "time": 0.2833, "name": "Images/splash/WaterSplash_B" }
+				]
+			},
+			"WaterSplash_3R": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.05, "color": "ffffffff", "curve": "stepped" },
+					{
+						"time": 0.25,
+						"color": "ffffffff",
+						"curve": [ 0.294, 1, 0.339, 1, 0.294, 1, 0.339, 1, 0.294, 1, 0.339, 1, 0.294, 0.33, 0.339, 0 ]
+					},
+					{ "time": 0.3833, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.1, "name": "Images/splash/WaterSplash_F" },
+					{ "time": 0.1667, "name": "Images/splash/WaterSplash_F" }
+				]
+			},
+			"WaterSplash_4L": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.05, "color": "ffffffff", "curve": "stepped" },
+					{
+						"time": 0.25,
+						"color": "ffffffff",
+						"curve": [ 0.294, 1, 0.339, 1, 0.294, 1, 0.339, 1, 0.294, 1, 0.339, 1, 0.294, 0.33, 0.339, 0 ]
+					},
+					{ "time": 0.3833, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.1667, "name": "Images/splash/WaterSplash_E" },
+					{ "time": 0.2833, "name": null },
+					{ "time": 0.3333, "name": "Images/splash/WaterSplash_E" }
+				]
+			},
+			"WaterSplash_4R": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.05, "color": "ffffffff", "curve": "stepped" },
+					{
+						"time": 0.25,
+						"color": "ffffffff",
+						"curve": [ 0.294, 1, 0.339, 1, 0.294, 1, 0.339, 1, 0.294, 1, 0.339, 1, 0.294, 0.33, 0.339, 0 ]
+					},
+					{ "time": 0.3833, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.1667, "name": "Images/splash/WaterSplash_C" },
+					{ "time": 0.2833, "name": null },
+					{ "time": 0.3333, "name": "Images/splash/WaterSplash_C" }
+				]
+			}
+		},
+		"bones": {
+			"WaterSplash": {
+				"scalex": [
+					{
+						"curve": [ 0.056, 1, 0.124, 1.314 ]
+					},
+					{
+						"time": 0.1667,
+						"value": 1.602,
+						"curve": [ 0.25, 2.163, 0.333, 2.241 ]
+					},
+					{ "time": 0.4167, "value": 2.241 }
+				],
+				"scaley": [
+					{
+						"value": 0.189,
+						"curve": [ 0.018, 0.73, 0.062, 1.53 ]
+					},
+					{
+						"time": 0.0667,
+						"value": 1.594,
+						"curve": [ 0.091, 1.899, 0.121, 1.892 ]
+					},
+					{
+						"time": 0.1667,
+						"value": 1.581,
+						"curve": [ 0.244, 1.056, 0.333, 0.84 ]
+					},
+					{ "time": 0.4167, "value": 0.84 }
+				]
+			},
+			"droplets": {
+				"translate": [
+					{
+						"x": -4.35,
+						"curve": [ 0.122, -4.35, 0.294, -4.35, 0.012, 388.56, 0.237, 302.62 ]
+					},
+					{ "time": 0.4167, "x": -4.35, "y": 232.7 }
+				],
+				"scale": [
+					{ "x": 0.261, "y": 0.261 },
+					{ "time": 0.4167, "x": 4.996, "y": 2.413 }
+				]
+			},
+			"WaterParticle_A": {
+				"rotate": [
+					{},
+					{ "time": 0.4167, "value": 195.04 }
+				],
+				"scale": [
+					{ "x": 0.42, "y": 0.42 }
+				]
+			},
+			"WaterParticle_B": {
+				"rotate": [
+					{},
+					{ "time": 0.4167, "value": 195.04 }
+				],
+				"scale": [
+					{ "x": 0.563, "y": 0.563, "curve": "stepped" },
+					{ "time": 0.4167, "x": 0.563, "y": 0.563 }
+				]
+			},
+			"WaterParticle_C": {
+				"rotate": [
+					{},
+					{ "time": 0.4167, "value": 195.04 }
+				]
+			},
+			"WaterParticle_D": {
+				"rotate": [
+					{},
+					{ "time": 0.4167, "value": 195.04 }
+				]
+			},
+			"WaterParticle_A2": {
+				"rotate": [
+					{},
+					{ "time": 0.4167, "value": 195.04 }
+				],
+				"scale": [
+					{ "x": 0.366, "y": 0.366 }
+				]
+			},
+			"WaterParticle_B2": {
+				"rotate": [
+					{},
+					{ "time": 0.4167, "value": 195.04 }
+				],
+				"scale": [
+					{ "x": 0.563, "y": 0.563, "curve": "stepped" },
+					{ "time": 0.4167, "x": 0.563, "y": 0.563 }
+				]
+			},
+			"WaterParticle_C2": {
+				"rotate": [
+					{},
+					{ "time": 0.4167, "value": 195.04 }
+				]
+			},
+			"WaterParticle_D2": {
+				"rotate": [
+					{},
+					{ "time": 0.4167, "value": 195.04 }
+				]
+			},
+			"droplets2": {
+				"translate": [
+					{
+						"x": -4.35,
+						"curve": [ 0.122, -4.35, 0.294, -23.73, 0.012, 388.56, 0.237, 307.18 ]
+					},
+					{ "time": 0.4167, "x": -23.73, "y": 237.26 }
+				],
+				"scale": [
+					{ "x": 0.261, "y": 0.261 },
+					{ "time": 0.4167, "x": 4.996, "y": 2.413 }
+				]
+			},
+			"WaterParticle_A3": {
+				"rotate": [
+					{},
+					{ "time": 0.4167, "value": 195.04 }
+				],
+				"scale": [
+					{ "x": 0.34, "y": 0.34 }
+				]
+			},
+			"WaterParticle_B3": {
+				"rotate": [
+					{},
+					{ "time": 0.4167, "value": 195.04 }
+				],
+				"scale": [
+					{ "x": 0.563, "y": 0.563, "curve": "stepped" },
+					{ "time": 0.4167, "x": 0.563, "y": 0.563 }
+				]
+			},
+			"WaterParticle_C3": {
+				"rotate": [
+					{},
+					{ "time": 0.4167, "value": 195.04 }
+				]
+			},
+			"WaterParticle_D3": {
+				"rotate": [
+					{},
+					{ "time": 0.4167, "value": 195.04 }
+				]
+			},
+			"droplets3": {
+				"translate": [
+					{
+						"x": -4.35,
+						"curve": [ 0.122, -4.35, 0.294, 44.22, 0.012, 388.56, 0.237, 297.94 ]
+					},
+					{ "time": 0.4167, "x": 44.22, "y": 228.02 }
+				],
+				"scale": [
+					{ "x": 0.261, "y": 0.261 },
+					{ "time": 0.4167, "x": 2.649, "y": 3.796 }
+				]
+			}
+		}
+	},
+	"splash2": {
+		"slots": {
+			"WaterParticle_A": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.05, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.1833, "color": "ffffffff" },
+					{ "time": 0.4167, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "Images/splash/WaterParticle_A" },
+					{ "time": 0.4167, "name": "Images/splash/WaterParticle_A" }
+				]
+			},
+			"WaterParticle_A2": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.05, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.1833, "color": "ffffffff" },
+					{ "time": 0.4167, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "Images/splash/WaterParticle_A" },
+					{ "time": 0.4167, "name": "Images/splash/WaterParticle_A" }
+				]
+			},
+			"WaterParticle_A3": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.05, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.1833, "color": "ffffffff" },
+					{ "time": 0.4167, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "Images/splash/WaterParticle_A" },
+					{ "time": 0.4167, "name": "Images/splash/WaterParticle_A" }
+				]
+			},
+			"WaterParticle_B": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.05, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.1833, "color": "ffffffff" },
+					{ "time": 0.4167, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "Images/splash/WaterParticle_B" },
+					{ "time": 0.4167, "name": "Images/splash/WaterParticle_B" }
+				]
+			},
+			"WaterParticle_B2": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.05, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.1833, "color": "ffffffff" },
+					{ "time": 0.4167, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "Images/splash/WaterParticle_B" },
+					{ "time": 0.4167, "name": "Images/splash/WaterParticle_B" }
+				]
+			},
+			"WaterParticle_B3": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.05, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.1833, "color": "ffffffff" },
+					{ "time": 0.4167, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "Images/splash/WaterParticle_B" },
+					{ "time": 0.4167, "name": "Images/splash/WaterParticle_B" }
+				]
+			},
+			"WaterParticle_C": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.05, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.1833, "color": "ffffffff" },
+					{ "time": 0.4167, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "Images/splash/WaterParticle_C" },
+					{ "time": 0.4167, "name": "Images/splash/WaterParticle_C" }
+				]
+			},
+			"WaterParticle_C2": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.05, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.1833, "color": "ffffffff" },
+					{ "time": 0.4167, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "Images/splash/WaterParticle_C" },
+					{ "time": 0.4167, "name": "Images/splash/WaterParticle_C" }
+				]
+			},
+			"WaterParticle_C3": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.05, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.1833, "color": "ffffffff" },
+					{ "time": 0.4167, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "Images/splash/WaterParticle_C" },
+					{ "time": 0.4167, "name": "Images/splash/WaterParticle_C" }
+				]
+			},
+			"WaterParticle_D": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.05, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.1833, "color": "ffffffff" },
+					{ "time": 0.4167, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "Images/splash/WaterParticle_D" },
+					{ "time": 0.4167, "name": "Images/splash/WaterParticle_D" }
+				]
+			},
+			"WaterParticle_D2": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.05, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.1833, "color": "ffffffff" },
+					{ "time": 0.4167, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "Images/splash/WaterParticle_D" },
+					{ "time": 0.4167, "name": "Images/splash/WaterParticle_D" }
+				]
+			},
+			"WaterParticle_D3": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.05, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.1833, "color": "ffffffff" },
+					{ "time": 0.4167, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "Images/splash/WaterParticle_D" },
+					{ "time": 0.4167, "name": "Images/splash/WaterParticle_D" }
+				]
+			},
+			"WaterSplash_1": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.05, "color": "ffffffff", "curve": "stepped" },
+					{
+						"time": 0.25,
+						"color": "ffffffff",
+						"curve": [ 0.294, 1, 0.339, 1, 0.294, 1, 0.339, 1, 0.294, 1, 0.339, 1, 0.294, 0.33, 0.339, 0 ]
+					},
+					{ "time": 0.3833, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "Images/splash/WaterSplash_D" },
+					{ "time": 0.1667, "name": null },
+					{ "time": 0.2833, "name": "Images/splash/WaterSplash_D" }
+				]
+			},
+			"WaterSplash_2": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.05, "color": "ffffffff", "curve": "stepped" },
+					{
+						"time": 0.25,
+						"color": "ffffffff",
+						"curve": [ 0.294, 1, 0.339, 1, 0.294, 1, 0.339, 1, 0.294, 1, 0.339, 1, 0.294, 0.33, 0.339, 0 ]
+					},
+					{ "time": 0.3833, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.1, "name": "Images/splash/WaterSplash_A" }
+				]
+			},
+			"WaterSplash_3L": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.05, "color": "ffffffff", "curve": "stepped" },
+					{
+						"time": 0.25,
+						"color": "ffffffff",
+						"curve": [ 0.294, 1, 0.339, 1, 0.294, 1, 0.339, 1, 0.294, 1, 0.339, 1, 0.294, 0.33, 0.339, 0 ]
+					},
+					{ "time": 0.3833, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.1, "name": "Images/splash/WaterSplash_B" },
+					{ "time": 0.1667, "name": null },
+					{ "time": 0.2833, "name": "Images/splash/WaterSplash_B" }
+				]
+			},
+			"WaterSplash_3R": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.05, "color": "ffffffff", "curve": "stepped" },
+					{
+						"time": 0.25,
+						"color": "ffffffff",
+						"curve": [ 0.294, 1, 0.339, 1, 0.294, 1, 0.339, 1, 0.294, 1, 0.339, 1, 0.294, 0.33, 0.339, 0 ]
+					},
+					{ "time": 0.3833, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.1, "name": "Images/splash/WaterSplash_F" },
+					{ "time": 0.1667, "name": "Images/splash/WaterSplash_F" }
+				]
+			},
+			"WaterSplash_4L": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.05, "color": "ffffffff", "curve": "stepped" },
+					{
+						"time": 0.25,
+						"color": "ffffffff",
+						"curve": [ 0.294, 1, 0.339, 1, 0.294, 1, 0.339, 1, 0.294, 1, 0.339, 1, 0.294, 0.33, 0.339, 0 ]
+					},
+					{ "time": 0.3833, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.1667, "name": "Images/splash/WaterSplash_E" },
+					{ "time": 0.2833, "name": null },
+					{ "time": 0.3333, "name": "Images/splash/WaterSplash_E" }
+				]
+			},
+			"WaterSplash_4R": {
+				"rgba": [
+					{ "color": "ffffff00" },
+					{ "time": 0.05, "color": "ffffffff", "curve": "stepped" },
+					{
+						"time": 0.25,
+						"color": "ffffffff",
+						"curve": [ 0.294, 1, 0.339, 1, 0.294, 1, 0.339, 1, 0.294, 1, 0.339, 1, 0.294, 0.33, 0.339, 0 ]
+					},
+					{ "time": 0.3833, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.1667, "name": "Images/splash/WaterSplash_C" },
+					{ "time": 0.2833, "name": null },
+					{ "time": 0.3333, "name": "Images/splash/WaterSplash_C" }
+				]
+			}
+		},
+		"bones": {
+			"WaterSplash": {
+				"scalex": [
+					{
+						"curve": [ 0.056, 1, 0.124, 1.314 ]
+					},
+					{
+						"time": 0.1667,
+						"value": 1.602,
+						"curve": [ 0.25, 2.163, 0.333, 2.241 ]
+					},
+					{ "time": 0.4167, "value": 2.241 }
+				],
+				"scaley": [
+					{
+						"value": 0.189,
+						"curve": [ 0.018, 0.73, 0.062, 1.53 ]
+					},
+					{
+						"time": 0.0667,
+						"value": 1.594,
+						"curve": [ 0.091, 1.899, 0.121, 1.892 ]
+					},
+					{
+						"time": 0.1667,
+						"value": 1.581,
+						"curve": [ 0.244, 1.056, 0.333, 0.84 ]
+					},
+					{ "time": 0.4167, "value": 0.84 }
+				]
+			},
+			"droplets": {
+				"translate": [
+					{
+						"x": -4.35,
+						"curve": [ 0.122, -4.35, 0.294, -4.35, 0.012, 388.56, 0.237, 302.62 ]
+					},
+					{ "time": 0.4167, "x": -4.35, "y": 232.7 }
+				],
+				"scale": [
+					{ "x": 0.261, "y": 0.261 },
+					{ "time": 0.4167, "x": 4.996, "y": 2.413 }
+				]
+			},
+			"WaterParticle_A": {
+				"rotate": [
+					{},
+					{ "time": 0.4167, "value": 195.04 }
+				],
+				"scale": [
+					{ "x": 0.42, "y": 0.42 }
+				]
+			},
+			"WaterParticle_B": {
+				"rotate": [
+					{},
+					{ "time": 0.4167, "value": 195.04 }
+				],
+				"scale": [
+					{ "x": 0.563, "y": 0.563, "curve": "stepped" },
+					{ "time": 0.4167, "x": 0.563, "y": 0.563 }
+				]
+			},
+			"WaterParticle_C": {
+				"rotate": [
+					{},
+					{ "time": 0.4167, "value": 195.04 }
+				]
+			},
+			"WaterParticle_D": {
+				"rotate": [
+					{},
+					{ "time": 0.4167, "value": 195.04 }
+				]
+			},
+			"WaterParticle_A2": {
+				"rotate": [
+					{},
+					{ "time": 0.4167, "value": 195.04 }
+				],
+				"scale": [
+					{ "x": 0.366, "y": 0.366 }
+				]
+			},
+			"WaterParticle_B2": {
+				"rotate": [
+					{},
+					{ "time": 0.4167, "value": 195.04 }
+				],
+				"scale": [
+					{ "x": 0.563, "y": 0.563, "curve": "stepped" },
+					{ "time": 0.4167, "x": 0.563, "y": 0.563 }
+				]
+			},
+			"WaterParticle_C2": {
+				"rotate": [
+					{},
+					{ "time": 0.4167, "value": 195.04 }
+				]
+			},
+			"WaterParticle_D2": {
+				"rotate": [
+					{},
+					{ "time": 0.4167, "value": 195.04 }
+				]
+			},
+			"droplets2": {
+				"translate": [
+					{
+						"x": -4.35,
+						"curve": [ 0.122, -4.35, 0.294, -23.73, 0.012, 388.56, 0.237, 307.18 ]
+					},
+					{ "time": 0.4167, "x": -23.73, "y": 237.26 }
+				],
+				"scale": [
+					{ "x": 0.261, "y": 0.261 },
+					{ "time": 0.4167, "x": 4.996, "y": 2.413 }
+				]
+			},
+			"WaterParticle_A3": {
+				"rotate": [
+					{},
+					{ "time": 0.4167, "value": 195.04 }
+				],
+				"scale": [
+					{ "x": 0.34, "y": 0.34 }
+				]
+			},
+			"WaterParticle_B3": {
+				"rotate": [
+					{},
+					{ "time": 0.4167, "value": 195.04 }
+				],
+				"scale": [
+					{ "x": 0.563, "y": 0.563, "curve": "stepped" },
+					{ "time": 0.4167, "x": 0.563, "y": 0.563 }
+				]
+			},
+			"WaterParticle_C3": {
+				"rotate": [
+					{},
+					{ "time": 0.4167, "value": 195.04 }
+				]
+			},
+			"WaterParticle_D3": {
+				"rotate": [
+					{},
+					{ "time": 0.4167, "value": 195.04 }
+				]
+			},
+			"droplets3": {
+				"translate": [
+					{
+						"x": -4.35,
+						"curve": [ 0.122, -4.35, 0.294, 44.22, 0.012, 388.56, 0.237, 297.94 ]
+					},
+					{ "time": 0.4167, "x": 44.22, "y": 228.02 }
+				],
+				"scale": [
+					{ "x": 0.261, "y": 0.261 },
+					{ "time": 0.4167, "x": 2.649, "y": 3.796 }
+				]
+			},
+			"SPLASH": {
+				"scale": [
+					{ "x": -1 }
+				],
+				"shear": [
+					{ "y": 13.08 }
+				]
+			}
+		}
+	}
+}
+}

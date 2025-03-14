@@ -1,0 +1,6 @@
+009SG_Anvil_Trap.png
+	size: 444, 464
+	filter: Linear, Linear
+anvil_trap_spot
+	bounds: 3, 3, 435, 456
+	offsets: 1, 1, 437, 458

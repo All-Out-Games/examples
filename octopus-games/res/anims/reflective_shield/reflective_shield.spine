@@ -1,0 +1,99 @@
+{
+"skeleton": { "hash": "HLarPXc7FHI", "spine": "4.0.45" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "reflective_shield", "parent": "root" }
+],
+"slots": [
+	{ "name": "reflective_shield", "bone": "reflective_shield" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"reflective_shield": {
+				"images/reflective_shield/shield0000": { "width": 318, "height": 322 },
+				"images/reflective_shield/shield0001": { "width": 318, "height": 322 },
+				"images/reflective_shield/shield0002": { "width": 318, "height": 322 }
+			}
+		}
+	}
+],
+"animations": {
+	"activate": {
+		"slots": {
+			"reflective_shield": {
+				"rgba": [
+					{
+						"color": "ffffff00",
+						"curve": [ 0.083, 1, 0.167, 1, 0.083, 1, 0.167, 1, 0.083, 1, 0.167, 1, 0.083, 0.67, 0.167, 1 ]
+					},
+					{ "time": 0.25, "color": "ffffffff" }
+				],
+				"attachment": [
+					{ "name": "images/reflective_shield/shield0000" },
+					{ "time": 0.0833, "name": "images/reflective_shield/shield0001" },
+					{ "time": 0.1667, "name": "images/reflective_shield/shield0002" },
+					{ "time": 0.25, "name": "images/reflective_shield/shield0000" },
+					{ "time": 0.3333, "name": "images/reflective_shield/shield0001" },
+					{ "time": 0.4167, "name": "images/reflective_shield/shield0002" },
+					{ "time": 0.5, "name": "images/reflective_shield/shield0000" }
+				]
+			}
+		},
+		"bones": {
+			"reflective_shield": {
+				"scale": [
+					{
+						"x": 0.439,
+						"y": 0.439,
+						"curve": [ 0.056, 0.889, 0.194, 1.115, 0.056, 0.889, 0.194, 1.115 ]
+					},
+					{
+						"time": 0.25,
+						"x": 1.115,
+						"y": 1.115,
+						"curve": [ 0.278, 1.115, 0.389, 1, 0.278, 1.115, 0.389, 1 ]
+					},
+					{ "time": 0.4167 }
+				]
+			}
+		}
+	},
+	"end": {
+		"slots": {
+			"reflective_shield": {
+				"rgba": [
+					{
+						"time": 0.0833,
+						"color": "ffffffff",
+						"curve": [ 0.222, 1, 0.361, 1, 0.222, 1, 0.361, 1, 0.222, 1, 0.361, 1, 0.222, 1, 0.361, 0.67 ]
+					},
+					{ "time": 0.5, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "images/reflective_shield/shield0000" },
+					{ "time": 0.0833, "name": "images/reflective_shield/shield0001" },
+					{ "time": 0.1667, "name": "images/reflective_shield/shield0002" },
+					{ "time": 0.25, "name": "images/reflective_shield/shield0000" },
+					{ "time": 0.3333, "name": "images/reflective_shield/shield0001" },
+					{ "time": 0.4167, "name": "images/reflective_shield/shield0002" },
+					{ "time": 0.5, "name": "images/reflective_shield/shield0000" }
+				]
+			}
+		}
+	},
+	"loop": {
+		"slots": {
+			"reflective_shield": {
+				"attachment": [
+					{ "name": "images/reflective_shield/shield0000" },
+					{ "time": 0.0833, "name": "images/reflective_shield/shield0001" },
+					{ "time": 0.1667, "name": "images/reflective_shield/shield0002" },
+					{ "time": 0.25, "name": "images/reflective_shield/shield0000" }
+				]
+			}
+		}
+	}
+}
+}

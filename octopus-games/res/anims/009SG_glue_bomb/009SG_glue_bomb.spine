@@ -1,0 +1,405 @@
+{
+"skeleton": { "hash": "rYWDx8gpa30", "spine": "4.0.64", "x": -82.18, "y": -71.07, "width": 151, "height": 142 },
+"bones": [
+	{ "name": "root", "rotation": 0.06 },
+	{ "name": "glue_splat", "parent": "root" },
+	{ "name": "glue_bomb", "parent": "root", "rotation": -0.06, "x": -6.68, "y": -0.06 },
+	{ "name": "glue_bomb_C", "parent": "root", "x": -27.7, "y": 43.64 },
+	{ "name": "glue_bomb_A", "parent": "root", "x": -44.54, "y": -40.27 },
+	{ "name": "glue_bomb_B", "parent": "root", "rotation": -6.17, "x": 29.8, "y": 10.86 },
+	{ "name": "glue_particle_A", "parent": "root", "x": -2.91, "y": 0.09 },
+	{ "name": "glue_particle_C", "parent": "glue_particle_A", "length": 50.95, "rotation": -27.31, "x": 58.7, "y": -69.09 },
+	{ "name": "glue_particle_A3", "parent": "glue_particle_A", "length": 77.99, "rotation": 104.83, "x": -31.52, "y": 83.24 },
+	{ "name": "glue_particle_B", "parent": "glue_particle_A", "length": 63.92, "rotation": 27.64, "x": 80.08, "y": 42.77 },
+	{ "name": "glue_particle_D", "parent": "glue_particle_A", "rotation": 91.27, "x": -95.55, "y": -61.81 },
+	{ "name": "glue_bomb2", "parent": "glue_bomb" }
+],
+"slots": [
+	{ "name": "glue_splat", "bone": "glue_splat" },
+	{ "name": "glue_bomb", "bone": "glue_bomb2", "attachment": "glue_bomb" },
+	{ "name": "glue_bomb_A", "bone": "glue_bomb_A" },
+	{ "name": "glue_bomb_B", "bone": "glue_bomb_B" },
+	{ "name": "glue_bomb_C", "bone": "glue_bomb_C" },
+	{ "name": "glue_particle_A", "bone": "glue_particle_A3" },
+	{ "name": "glue_particle_B", "bone": "glue_particle_B" },
+	{ "name": "glue_particle_C", "bone": "glue_particle_C" },
+	{ "name": "glue_particle_D", "bone": "glue_particle_D" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"glue_bomb": {
+				"glue_bomb": { "width": 151, "height": 142 }
+			},
+			"glue_bomb_A": {
+				"glue_bomb_A": { "x": 9.54, "y": 14.13, "width": 90, "height": 92 }
+			},
+			"glue_bomb_B": {
+				"glue_bomb_B": { "x": 0.53, "y": -15.81, "width": 85, "height": 108 }
+			},
+			"glue_bomb_C": {
+				"glue_bomb_C": { "x": 1.59, "y": -0.27, "width": 73, "height": 59 }
+			},
+			"glue_particle_A": {
+				"glue_particle_A": { "x": 48.1, "y": 4.37, "rotation": -89.94, "width": 160, "height": 142 }
+			},
+			"glue_particle_B": {
+				"glue_particle_B": { "x": 44.66, "y": -1.66, "rotation": -56.69, "width": 68, "height": 90 }
+			},
+			"glue_particle_C": {
+				"glue_particle_C": { "x": 27.69, "y": 2.85, "rotation": -49.13, "width": 88, "height": 137 }
+			},
+			"glue_particle_D": {
+				"glue_particle_D": { "width": 66, "height": 67 }
+			},
+			"glue_splat": {
+				"glue_splat": {
+					"type": "mesh",
+					"uvs": [ 0.40522, 0, 0.53289, 0.10445, 0.63917, 0.06552, 0.77221, 0.02617, 1, 0.38224, 1, 0.43911, 0.92594, 0.69754, 0.80377, 0.9329, 0.35245, 1, 0.2982, 1, 0.06335, 0.74333, 0, 0.43295, 0, 0.36627, 0.18022, 0.05181, 0.37984, 0, 0.47905, 0.46656 ],
+					"triangles": [ 15, 11, 12, 2, 3, 4, 1, 14, 0, 4, 5, 2, 15, 10, 11, 15, 14, 1, 13, 14, 15, 13, 15, 12, 5, 6, 2, 2, 15, 1, 2, 6, 15, 7, 15, 6, 9, 10, 15, 8, 9, 15, 7, 8, 15 ],
+					"vertices": [ -43.83, 190.39, 23.96, 147.46, 80.39, 163.46, 151.04, 179.63, 271.99, 33.29, 271.99, 9.91, 232.67, -96.3, 167.8, -193.04, -71.86, -220.61, -100.66, -220.61, -225.37, -115.12, -259.01, 12.44, -259.01, 39.85, -163.31, 169.09, -57.31, 190.39, -4.63, -1.37 ],
+					"hull": 15
+				}
+			}
+		}
+	}
+],
+"animations": {
+	"Land": {
+		"slots": {
+			"glue_bomb": {
+				"attachment": [
+					{ "time": 0.05, "name": null }
+				]
+			},
+			"glue_bomb_A": {
+				"rgba": [
+					{ "time": 0.2167, "color": "ffffffff" },
+					{ "time": 0.3, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.05, "name": "glue_bomb_A" }
+				]
+			},
+			"glue_bomb_B": {
+				"rgba": [
+					{
+						"time": 0.2167,
+						"color": "ffffffff",
+						"curve": [ 0.244, 1, 0.272, 1, 0.244, 1, 0.272, 1, 0.244, 1, 0.272, 1, 0.244, 1, 0.272, 0 ]
+					},
+					{ "time": 0.3, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.05, "name": "glue_bomb_B" }
+				]
+			},
+			"glue_bomb_C": {
+				"rgba": [
+					{ "time": 0.2167, "color": "ffffffff" },
+					{ "time": 0.3, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.05, "name": "glue_bomb_C" }
+				]
+			},
+			"glue_particle_A": {
+				"rgba": [
+					{
+						"time": 0.2833,
+						"color": "ffffffff",
+						"curve": [ 0.311, 1, 0.339, 1, 0.311, 1, 0.339, 1, 0.311, 1, 0.339, 1, 0.311, 1, 0.339, 0 ]
+					},
+					{ "time": 0.3667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.05, "name": "glue_particle_A" }
+				]
+			},
+			"glue_particle_B": {
+				"rgba": [
+					{
+						"time": 0.2833,
+						"color": "ffffffff",
+						"curve": [ 0.311, 1, 0.339, 1, 0.311, 1, 0.339, 1, 0.311, 1, 0.339, 1, 0.311, 1, 0.339, 0 ]
+					},
+					{ "time": 0.3667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.05, "name": "glue_particle_B" }
+				]
+			},
+			"glue_particle_C": {
+				"rgba": [
+					{
+						"time": 0.2833,
+						"color": "ffffffff",
+						"curve": [ 0.311, 1, 0.339, 1, 0.311, 1, 0.339, 1, 0.311, 1, 0.339, 1, 0.311, 1, 0.339, 0 ]
+					},
+					{ "time": 0.3667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.05, "name": "glue_particle_C" }
+				]
+			},
+			"glue_particle_D": {
+				"rgba": [
+					{
+						"time": 0.2833,
+						"color": "ffffffff",
+						"curve": [ 0.311, 1, 0.339, 1, 0.311, 1, 0.339, 1, 0.311, 1, 0.339, 1, 0.311, 1, 0.339, 0 ]
+					},
+					{ "time": 0.3667, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "time": 0.05, "name": "glue_particle_D" }
+				]
+			}
+		},
+		"bones": {
+			"glue_bomb": {
+				"scale": [
+					{},
+					{ "time": 0.05, "x": 1.679, "y": 0.555 }
+				]
+			},
+			"glue_bomb_C": {
+				"rotate": [
+					{
+						"time": 0.05,
+						"curve": [ 0.133, 112.06, 0.217, 168.08 ]
+					},
+					{ "time": 0.3, "value": 168.08 }
+				],
+				"translate": [
+					{
+						"time": 0.05,
+						"x": 8.89,
+						"y": -15.59,
+						"curve": [ 0.133, -163.08, 0.218, -245.15, 0.133, 369.68, 0.217, 562.32 ]
+					},
+					{ "time": 0.3, "x": -378.46, "y": 562.32 }
+				]
+			},
+			"glue_bomb_B": {
+				"rotate": [
+					{
+						"time": 0.05,
+						"curve": [ 0.133, -109.38, 0.217, -164.07 ]
+					},
+					{ "time": 0.3, "value": -164.07 }
+				],
+				"translate": [
+					{
+						"time": 0.05,
+						"x": 12.26,
+						"y": 14.46,
+						"curve": [ 0.133, 576.89, 0.217, 859.5, 0.135, 244.06, 0.217, 336.46 ]
+					},
+					{ "time": 0.3, "x": 859.5, "y": 235.07 }
+				]
+			},
+			"glue_bomb_A": {
+				"rotate": [
+					{
+						"time": 0.05,
+						"curve": [ 0.133, -188.7, 0.217, -283.04 ]
+					},
+					{ "time": 0.3, "value": -283.04 }
+				],
+				"translate": [
+					{
+						"time": 0.05,
+						"x": 20.05,
+						"y": 17.79,
+						"curve": [ 0.133, -395.93, 0.217, -603.91, 0.135, -38.23, 0.253, -236.96 ]
+					},
+					{ "time": 0.3, "x": -603.91, "y": -265.41 }
+				]
+			},
+			"glue_particle_A3": {
+				"rotate": [
+					{
+						"time": 0.05,
+						"value": -16.42,
+						"curve": [ 0.095, -17.39, 0.139, -27.17 ]
+					},
+					{
+						"time": 0.1833,
+						"value": -30.3,
+						"curve": [ 0.245, -34.56, 0.306, -40.24 ]
+					},
+					{ "time": 0.3667, "value": -40.24 }
+				],
+				"translate": [
+					{
+						"time": 0.05,
+						"x": 24.73,
+						"y": -29.93,
+						"curve": [ 0.156, 92.56, 0.301, 303.42, 0.156, 343.77, 0.263, 636.8 ]
+					},
+					{ "time": 0.3667, "x": 296.38, "y": 594.06 }
+				],
+				"scale": [
+					{
+						"time": 0.05,
+						"x": 0.556,
+						"curve": [ 0.061, 0.556, 0.072, 1, 0.061, 1, 0.072, 1 ]
+					},
+					{ "time": 0.0833 }
+				]
+			},
+			"glue_particle_B": {
+				"rotate": [
+					{
+						"time": 0.05,
+						"value": 12.96,
+						"curve": [ 0.095, 1.52, 0.139, 1.38 ]
+					},
+					{
+						"time": 0.1833,
+						"value": -5.22,
+						"curve": [ 0.234, -12.59, 0.284, -22.85 ]
+					},
+					{
+						"time": 0.3333,
+						"value": -26.33,
+						"curve": [ 0.345, -27.09, 0.356, -37.21 ]
+					},
+					{ "time": 0.3667, "value": -37.21 }
+				],
+				"translate": [
+					{
+						"time": 0.05,
+						"x": -41.24,
+						"y": -7.85,
+						"curve": [ 0.156, 371.28, 0.261, 577.54, 0.156, 302.76, 0.261, 461.63 ]
+					},
+					{ "time": 0.3667, "x": 577.54, "y": 383.3 }
+				]
+			},
+			"glue_particle_C": {
+				"rotate": [
+					{
+						"time": 0.05,
+						"value": 33.49,
+						"curve": [ 0.122, 17.09, 0.195, 6.88 ]
+					},
+					{
+						"time": 0.2667,
+						"value": 1.74,
+						"curve": [ 0.301, -0.6, 0.334, -2.33 ]
+					},
+					{ "time": 0.3667, "value": -2.33 }
+				],
+				"translate": [
+					{
+						"time": 0.05,
+						"x": -24.88,
+						"y": 49.14,
+						"curve": [ 0.156, 485.84, 0.261, 656.25, 0.156, 119.24, 0.26, 190.58 ]
+					},
+					{ "time": 0.3667, "x": 656.25, "y": 26 }
+				]
+			},
+			"glue_particle_D": {
+				"rotate": [
+					{ "time": 0.05 }
+				],
+				"translate": [
+					{
+						"time": 0.05,
+						"x": 54.58,
+						"y": 41.13,
+						"curve": [ 0.156, 54.58, 0.261, -606.96, 0.156, 142.5, 0.261, 315.11 ]
+					},
+					{ "time": 0.3667, "x": -606.96, "y": 223.46 }
+				]
+			}
+		}
+	},
+	"Projectile": {
+		"bones": {
+			"glue_bomb2": {
+				"rotate": [
+					{},
+					{ "time": 0.5, "value": -360 }
+				]
+			},
+			"glue_bomb": {
+				"scale": [
+					{ "x": 1.144, "y": 0.848 }
+				]
+			}
+		}
+	},
+	"Splat_Fade_Away": {
+		"slots": {
+			"glue_bomb": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"glue_splat": {
+				"rgba": [
+					{
+						"color": "ffffffff",
+						"curve": [ 0.056, 1, 0.194, 1, 0.056, 1, 0.194, 1, 0.056, 1, 0.194, 1, 0.056, 1, 0.194, 0 ]
+					},
+					{ "time": 0.25, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": "glue_splat" }
+				]
+			}
+		}
+	},
+	"Splat_Loop": {
+		"slots": {
+			"glue_bomb": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"glue_splat": {
+				"attachment": [
+					{ "name": "glue_splat" }
+				]
+			}
+		},
+		"bones": {
+			"glue_splat": {
+				"scalex": [
+					{
+						"value": 1.023,
+						"curve": [ 0.075, 1.012, 0.143, 1.006 ]
+					},
+					{
+						"time": 0.2167,
+						"value": 1.006,
+						"curve": [ 0.355, 1.006, 0.495, 1.04 ]
+					},
+					{
+						"time": 0.6333,
+						"value": 1.04,
+						"curve": [ 0.698, 1.04, 0.77, 1.033 ]
+					},
+					{ "time": 0.8333, "value": 1.023 }
+				],
+				"scaley": [
+					{
+						"curve": [ 0.138, 1, 0.278, 1.083 ]
+					},
+					{
+						"time": 0.4167,
+						"value": 1.083,
+						"curve": [ 0.555, 1.083, 0.695, 1 ]
+					},
+					{ "time": 0.8333 }
+				]
+			}
+		}
+	}
+}
+}

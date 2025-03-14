@@ -1,0 +1,50 @@
+009SG_Wrecking_Ball.png
+	size: 2808, 1132
+	filter: Linear, Linear
+ball
+	bounds: 2067, 220, 738, 806
+	offsets: 1, 1, 740, 808
+big_wind
+	bounds: 1278, 126, 900, 786
+	offsets: 192, 13, 1105, 812
+	rotate: 90
+body
+	bounds: 2064, 14, 186, 203
+chain
+	bounds: 3, 3, 120, 1241
+	rotate: 90
+eyeball_L
+	bounds: 1825, 43, 80, 80
+	offsets: 1, 1, 82, 82
+eyeball_R
+	bounds: 1908, 44, 79, 79
+	offsets: 1, 1, 81, 81
+eyelid_L
+	bounds: 2381, 45, 64, 46
+	offsets: 1, 1, 66, 48
+eyelid_R
+	bounds: 2314, 43, 64, 48
+	offsets: 1, 1, 66, 50
+hand_grab
+	bounds: 1990, 45, 64, 78
+	offsets: 1, 1, 66, 79
+hand_raised
+	bounds: 1722, 24, 100, 99
+	offsets: 1, 1, 102, 101
+leg_L
+	bounds: 2224, 20, 87, 71
+	offsets: 1, 1, 89, 73
+leg_R
+	bounds: 2314, 94, 67, 55
+	offsets: 1, 1, 69, 57
+pupil_L
+	bounds: 1825, 5, 34, 35
+	offsets: 1, 1, 36, 37
+pupil_R
+	bounds: 1862, 7, 33, 33
+	offsets: 1, 1, 35, 35
+reference
+	bounds: 3, 126, 1272, 1001
+small_wind
+	bounds: 1247, 31, 472, 92
+	offsets: 17, 7, 500, 106

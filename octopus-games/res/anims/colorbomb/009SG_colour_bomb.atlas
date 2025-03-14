@@ -1,0 +1,83 @@
+009SG_colour_bomb.png
+	size: 2628, 604
+	filter: Linear, Linear
+blue_bomb
+	bounds: 2173, 6, 96, 128
+	offsets: 1, 1, 98, 130
+	rotate: 90
+colour_bomb_blue/colour_bomb_AOE 2
+	bounds: 6, 85, 603, 513
+	offsets: 3, 1, 609, 518
+colour_bomb_blue/colour_bomb_chunk_A 2
+	bounds: 2527, 25, 93, 133
+	offsets: 1, 2, 95, 136
+colour_bomb_blue/colour_bomb_chunk_B 2
+	bounds: 2366, 96, 201, 155
+	offsets: 3, 2, 205, 157
+	rotate: 90
+colour_bomb_blue/colour_bomb_chunk_C 2
+	bounds: 2173, 108, 187, 189
+	offsets: 3, 1, 190, 193
+colour_bomb_blue/colour_bomb_chunk_D 2
+	bounds: 2498, 451, 142, 117
+	offsets: 1, 1, 146, 120
+	rotate: 90
+colour_bomb_blue/colour_bomb_chunk_E 2
+	bounds: 132, 31, 120, 48
+	offsets: 2, 0, 124, 49
+colour_bomb_blue/colour_bomb_poof_A 2
+	bounds: 1551, 266, 332, 315
+	offsets: 1, 1, 333, 317
+	rotate: 90
+colour_bomb_blue/colour_bomb_poof_B 2
+	bounds: 1503, 14, 246, 267
+	offsets: 1, 0, 247, 268
+	rotate: 90
+colour_bomb_blue/colour_bomb_poof_C 2
+	bounds: 1872, 31, 295, 266
+	offsets: 1, 1, 296, 268
+colour_bomb_blue/colour_bomb_splat_A 2
+	bounds: 446, 44, 48, 35
+colour_bomb_blue/colour_bomb_splat_B 2
+	bounds: 325, 33, 61, 46
+	offsets: 0, 1, 61, 47
+colour_bomb_red/colour_bomb_AOE
+	bounds: 615, 80, 609, 518
+colour_bomb_red/colour_bomb_chunk_A
+	bounds: 2527, 164, 93, 133
+	offsets: 1, 2, 95, 136
+colour_bomb_red/colour_bomb_chunk_B
+	bounds: 2337, 303, 201, 155
+	offsets: 3, 2, 205, 157
+	rotate: 90
+colour_bomb_red/colour_bomb_chunk_C
+	bounds: 2144, 303, 187, 189
+	offsets: 3, 1, 190, 193
+colour_bomb_red/colour_bomb_chunk_D
+	bounds: 2498, 303, 142, 117
+	offsets: 1, 1, 146, 120
+	rotate: 90
+colour_bomb_red/colour_bomb_chunk_E
+	bounds: 6, 31, 120, 48
+	offsets: 2, 0, 124, 49
+colour_bomb_red/colour_bomb_poof_A
+	bounds: 1230, 266, 332, 315
+	offsets: 1, 1, 333, 317
+	rotate: 90
+colour_bomb_red/colour_bomb_poof_B
+	bounds: 1230, 14, 246, 267
+	offsets: 1, 0, 247, 268
+	rotate: 90
+colour_bomb_red/colour_bomb_poof_C
+	bounds: 1872, 303, 295, 266
+	offsets: 1, 1, 296, 268
+	rotate: 90
+colour_bomb_red/colour_bomb_splat_A
+	bounds: 392, 44, 48, 35
+colour_bomb_red/colour_bomb_splat_B
+	bounds: 258, 33, 61, 46
+	offsets: 0, 1, 61, 47
+red_bomb
+	bounds: 615, 11, 96, 128
+	offsets: 1, 1, 98, 130
+	rotate: 90

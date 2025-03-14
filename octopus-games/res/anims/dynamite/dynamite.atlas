@@ -1,0 +1,41 @@
+dynamite.png
+	size: 4084, 2632
+	filter: Linear, Linear
+images/006LOAD_Dynamite/cloud1_f2
+	bounds: 3501, 176, 604, 576
+	offsets: 3, 3, 610, 582
+	rotate: 90
+images/006LOAD_Dynamite/cloud2_f2
+	bounds: 813, 144, 766, 636
+	offsets: 3, 3, 772, 642
+images/006LOAD_Dynamite/cloud3_f2
+	bounds: 6, 109, 801, 671
+	offsets: 10, 10, 821, 691
+images/006LOAD_Dynamite/cloud4_f2
+	bounds: 2266, 169, 639, 611
+	offsets: 10, 10, 659, 631
+images/006LOAD_Dynamite/dirt_cloud1_f3
+	bounds: 2911, 184, 584, 596
+	offsets: 12, 12, 608, 620
+images/006LOAD_Dynamite/dirt_cloud2_f3
+	bounds: 1585, 126, 675, 654
+	offsets: 12, 12, 699, 678
+images/006LOAD_Dynamite/dynamite
+	bounds: 3542, 6, 192, 164
+	offsets: 1, 1, 194, 166
+images/006LOAD_Dynamite/dynamite_lighted
+	bounds: 3344, 6, 192, 164
+	offsets: 1, 1, 194, 166
+images/006LOAD_Dynamite/ember_f2
+	bounds: 2266, 11, 152, 152
+	offsets: 4, 5, 161, 161
+images/006LOAD_Dynamite/explosion_f1
+	bounds: 1910, 786, 1757, 1709
+	offsets: 5, 5, 1767, 1719
+	rotate: 90
+images/006LOAD_Dynamite/glow_f2
+	bounds: 6, 786, 1898, 1838
+	offsets: 79, 145, 2058, 2104
+images/006LOAD_Dynamite/large_ember_f2
+	bounds: 2911, 58, 427, 120
+	offsets: 4, 4, 477, 128

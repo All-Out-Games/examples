@@ -1,0 +1,43 @@
+{
+"skeleton": { "hash": "xV5QgWvyV+w", "spine": "4.0.64", "x": -218.5, "y": -229, "width": 437, "height": 458 },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "anvil_trap_spot", "bone": "root", "attachment": "anvil_trap_spot" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"anvil_trap_spot": {
+				"anvil_trap_spot": { "width": 437, "height": 458 }
+			}
+		}
+	}
+],
+"animations": {
+	"Appear": {
+		"slots": {
+			"anvil_trap_spot": {
+				"rgba": [
+					{
+						"color": "ffffff00",
+						"curve": [ 0.139, 1, 0.278, 1, 0.139, 1, 0.278, 1, 0.139, 1, 0.278, 1, 0.139, 0, 0.278, 1 ]
+					},
+					{ "time": 0.4167, "color": "ffffffff" }
+				]
+			}
+		}
+	},
+	"Idle": {
+		"bones": {
+			"root": {
+				"translate": [
+					{}
+				]
+			}
+		}
+	}
+}
+}

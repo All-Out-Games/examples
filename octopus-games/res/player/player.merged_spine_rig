@@ -1,0 +1,7 @@
+{
+    "base_rig": "player/playercharacter.spine",
+    "rigs_to_merge": [
+        { "rig": "player/player2/playercharacter.spine" },
+        { "rig": "$AO/schleem/playercharacter.spine", },
+    ],
+}

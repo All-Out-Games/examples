@@ -1,0 +1,4 @@
+[
+    { id: "environments/mingle/center/spinning_platform.png", texture: { pivot: [ 1 1 ] } }
+    { id: "environments/mingle/center/floor_tile.png",        texture: { wrap_repeat: true } }
+]
